@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="233.34995mm"
+   height="88.997658mm"
+   viewBox="0 0 233.34994 88.997658"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         fill="#333333"
+         id="polygon1" />
+    </marker>
+    <rect
+       x="33.644859"
+       y="394.92657"
+       width="36.849133"
+       height="22.429907"
+       id="rect58" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-27.781253,-60.854173)">
+    <text
+       x="58.198769"
+       y="63.753448"
+       text-anchor="middle"
+       class="subtitle"
+       id="text2"
+       style="font-weight:bold;font-size:5.2825px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">2D Space</text>
+    <line
+       x1="27.781252"
+       y1="114.80701"
+       x2="86.285088"
+       y2="114.80701"
+       stroke="#333333"
+       stroke-width="0.660314"
+       marker-end="url(#arrowhead)"
+       id="line2" />
+    <line
+       x1="33.500587"
+       y1="120.43985"
+       x2="33.500587"
+       y2="66.974495"
+       stroke="#333333"
+       stroke-width="0.76108"
+       marker-end="url(#arrowhead)"
+       id="line3" />
+    <text
+       x="89.299187"
+       y="113.02129"
+       class="axis-label"
+       id="text3"
+       style="font-style:italic;font-size:3.96188px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">x₁</text>
+    <text
+       x="33.500938"
+       y="62.750641"
+       class="axis-label"
+       id="text4"
+       style="font-style:italic;font-size:3.96188px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">x₂</text>
+    <ellipse
+       cx="75.636192"
+       cy="80.047302"
+       fill="#ffd700"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle4"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="76.831245"
+       y="79.792702"
+       text-anchor="middle"
+       class="word"
+       id="text5"
+       style="font-weight:bold;font-size:4.29203px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">King</text>
+    <ellipse
+       cx="69.782333"
+       cy="87.430885"
+       fill="#ff69b4"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle5"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="70.884895"
+       y="87.06144"
+       text-anchor="middle"
+       class="word"
+       id="text6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52168px;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Queen</text>
+    <ellipse
+       cx="57.562576"
+       cy="98.298035"
+       fill="#6495ed"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle6"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="58.472057"
+       y="97.759575"
+       text-anchor="middle"
+       class="word"
+       id="text7"
+       style="font-weight:bold;font-size:4.29203px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Man</text>
+    <ellipse
+       cx="51.188004"
+       cy="105.41298"
+       fill="#9370db"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle7"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <ellipse
+       cx="40.782104"
+       cy="94.684608"
+       fill="#90ee90"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle8"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="41.426453"
+       y="94.202339"
+       text-anchor="middle"
+       class="word"
+       id="text9"
+       style="font-weight:bold;font-size:4.29203px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Dog</text>
+    <ellipse
+       cx="44.553055"
+       cy="86.763725"
+       fill="#98fb98"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle9"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="44.992496"
+       y="86.669128"
+       text-anchor="middle"
+       class="word"
+       id="text10"
+       style="font-weight:bold;font-size:4.29203px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Cat</text>
+    <text
+       x="57.934284"
+       y="129.52911"
+       text-anchor="middle"
+       class="caption"
+       id="text11"
+       style="font-style:italic;font-size:3.96188px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">2 dimensions: Limited ability to</text>
+    <text
+       x="57.934284"
+       y="134.48146"
+       text-anchor="middle"
+       class="caption"
+       id="text12"
+       style="font-style:italic;font-size:3.96188px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">capture semantic relationships</text>
+    <text
+       x="141.92368"
+       y="64.811356"
+       text-anchor="middle"
+       class="subtitle"
+       id="text13"
+       style="font-weight:bold;font-size:5.2825px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">3D Space</text>
+    <line
+       x1="109.03659"
+       y1="114.80701"
+       x2="168.58124"
+       y2="114.80701"
+       stroke="#333333"
+       stroke-width="0.729742"
+       marker-end="url(#arrowhead)"
+       id="line13" />
+    <line
+       x1="115.537"
+       y1="120.70849"
+       x2="115.537"
+       y2="66.458351"
+       stroke="#333333"
+       stroke-width="0.766647"
+       marker-end="url(#arrowhead)"
+       id="line14" />
+    <line
+       x1="110.58543"
+       y1="119.66382"
+       x2="145.62721"
+       y2="82.173035"
+       stroke="#333333"
+       stroke-width="3.79676"
+       marker-end="url(#arrowhead)"
+       id="line15"
+       style="stroke-width:0.873162;stroke-dasharray:none" />
+    <text
+       x="174.09961"
+       y="113.28576"
+       class="axis-label"
+       id="text15"
+       style="font-style:italic;font-size:3.96188px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">x₁</text>
+    <text
+       x="117.62697"
+       y="62.22168"
+       class="axis-label"
+       id="text16"
+       style="font-style:italic;font-size:3.96188px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">x₂</text>
+    <ellipse
+       cx="138.28853"
+       cy="104.74582"
+       fill="#ffd700"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle21"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="140.47346"
+       y="104.10705"
+       text-anchor="middle"
+       class="word"
+       id="text21"
+       style="font-weight:bold;font-size:4.29203px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">King</text>
+    <ellipse
+       cx="135.03831"
+       cy="103.06895"
+       fill="#ff69b4"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle22"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="137.17188"
+       y="102.45628"
+       text-anchor="middle"
+       class="word"
+       id="text22"
+       style="font-weight:bold;font-size:2.64126px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Queen</text>
+    <ellipse
+       cx="128.53787"
+       cy="111.45327"
+       fill="#6495ed"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle23"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="130.56874"
+       y="110.71019"
+       text-anchor="middle"
+       class="word"
+       id="text23"
+       style="font-weight:bold;font-size:4.29203px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Man</text>
+    <ellipse
+       cx="125.28764"
+       cy="109.77643"
+       fill="#9370db"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle24"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="127.26717"
+       y="109.0594"
+       text-anchor="middle"
+       class="word"
+       id="text24"
+       style="font-weight:bold;font-size:2.64126px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Woman</text>
+    <ellipse
+       cx="144.78896"
+       cy="98.038353"
+       fill="#90ee90"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle25"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="147.07658"
+       y="97.503914"
+       text-anchor="middle"
+       class="word"
+       id="text25"
+       style="font-weight:bold;font-size:4.29203px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Dog</text>
+    <ellipse
+       cx="149.66428"
+       cy="96.361481"
+       fill="#98fb98"
+       stroke="#333333"
+       stroke-width="0.495235"
+       opacity="0.8"
+       id="circle26"
+       rx="5.8503847"
+       ry="6.0367155" />
+    <text
+       x="152.02893"
+       y="95.853127"
+       text-anchor="middle"
+       class="word"
+       id="text26"
+       style="font-weight:bold;font-size:4.29203px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Cat</text>
+    <text
+       x="148.54889"
+       y="79.306404"
+       class="axis-label"
+       id="text17-3"
+       style="font-style:italic;font-size:3.96188px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">x₃</text>
+    <polygon
+       points="430,220 350,220 350,160 430,160 "
+       fill="none"
+       stroke="#999999"
+       stroke-width="1"
+       stroke-dasharray="4, 2"
+       id="polygon17-9"
+       transform="matrix(0.53669885,0,0,0.49447907,-80.103333,13.221118)" />
+    <polygon
+       points="450,190 370,190 370,130 450,130 "
+       fill="none"
+       stroke="#999999"
+       stroke-width="1"
+       stroke-dasharray="4, 2"
+       id="polygon18-9"
+       transform="matrix(0.53669885,0,0,0.49447907,-80.103333,13.221118)" />
+    <line
+       x1="107.74127"
+       y1="92.337761"
+       x2="118.47523"
+       y2="77.503395"
+       stroke="#999999"
+       stroke-width="0.515156"
+       stroke-dasharray="4, 2"
+       id="line18-7" />
+    <line
+       x1="150.6772"
+       y1="92.337761"
+       x2="161.41116"
+       y2="77.503395"
+       stroke="#999999"
+       stroke-width="0.515156"
+       stroke-dasharray="4, 2"
+       id="line19-0" />
+    <line
+       x1="150.6772"
+       y1="122.00652"
+       x2="161.41116"
+       y2="107.17215"
+       stroke="#999999"
+       stroke-width="0.515156"
+       stroke-dasharray="4, 2"
+       id="line20-3" />
+    <line
+       x1="107.74127"
+       y1="122.00652"
+       x2="118.47523"
+       y2="107.17215"
+       stroke="#999999"
+       stroke-width="0.515156"
+       stroke-dasharray="4, 2"
+       id="line21-9" />
+    <text
+       x="143.77502"
+       y="129.52911"
+       text-anchor="middle"
+       class="caption"
+       id="text27"
+       style="font-style:italic;font-size:3.96188px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">3 dimensions: Better separation,</text>
+    <text
+       x="143.77502"
+       y="134.48146"
+       text-anchor="middle"
+       class="caption"
+       id="text28"
+       style="font-style:italic;font-size:3.96188px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">more nuanced relationships</text>
+    <text
+       x="226.04968"
+       y="64.811356"
+       text-anchor="middle"
+       class="subtitle"
+       id="text29"
+       style="font-weight:bold;font-size:5.2825px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">High-dimensional Space (300D)</text>
+    <rect
+       x="188.99013"
+       y="78.435379"
+       width="65.004272"
+       height="40.24477"
+       fill="none"
+       stroke="#333333"
+       stroke-width="0.660314"
+       rx="1.6251069"
+       id="rect29" />
+    <rect
+       x="195.49055"
+       y="83.465958"
+       width="52.003422"
+       height="30.183578"
+       fill="none"
+       stroke="#555555"
+       stroke-width="0.495235"
+       rx="1.3000855"
+       stroke-dasharray="5, 3"
+       id="rect30" />
+    <rect
+       x="201.99098"
+       y="88.496552"
+       width="39.002567"
+       height="20.122385"
+       fill="none"
+       stroke="#777777"
+       stroke-width="0.330156"
+       rx="0.97506416"
+       stroke-dasharray="3, 2"
+       id="rect31" />
+    <rect
+       x="208.49141"
+       y="93.527153"
+       width="26.001711"
+       height="10.061193"
+       fill="none"
+       stroke="#999999"
+       stroke-width="0.165079"
+       rx="0.65004277"
+       stroke-dasharray="2, 1"
+       id="rect32" />
+    <text
+       x="191.97612"
+       y="75.56459"
+       text-anchor="start"
+       class="dimension-label"
+       id="text32"
+       style="font-size:2.64126px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Dimensions 1-10: Core semantic features</text>
+    <text
+       x="198.57925"
+       y="80.516937"
+       text-anchor="start"
+       class="dimension-label"
+       id="text33"
+       style="font-size:2.64126px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Dimensions 11-50: Word relationships</text>
+    <text
+       x="205.18239"
+       y="85.469292"
+       text-anchor="start"
+       class="dimension-label"
+       id="text34"
+       style="font-size:2.64126px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Dimensions 51-150: Context nuances</text>
+    <text
+       x="211.78551"
+       y="90.421646"
+       text-anchor="start"
+       class="dimension-label"
+       id="text35"
+       style="font-size:2.64126px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Dimensions 151-300: Fine distinctions</text>
+    <rect
+       x="205.2412"
+       y="123.71076"
+       width="32.502136"
+       height="5.0305963"
+       fill="#e6ee9c"
+       stroke="#333333"
+       stroke-width="0.330156"
+       rx="0.65004277"
+       id="rect35" />
+    <text
+       x="224.99179"
+       y="125.7484"
+       text-anchor="middle"
+       class="tiny-label"
+       id="text36"
+       style="font-size:3.30156px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">[Dim 1-10]</text>
+    <rect
+       x="205.2412"
+       y="128.74133"
+       width="32.502136"
+       height="5.0305963"
+       fill="#d4e157"
+       stroke="#333333"
+       stroke-width="0.330156"
+       rx="0.65004277"
+       id="rect36" />
+    <text
+       x="224.99179"
+       y="130.70074"
+       text-anchor="middle"
+       class="tiny-label"
+       id="text37"
+       style="font-size:3.30156px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">[Dim 11-50]</text>
+    <rect
+       x="205.2412"
+       y="133.77194"
+       width="32.502136"
+       height="5.0305963"
+       fill="#c0ca33"
+       stroke="#333333"
+       stroke-width="0.330156"
+       rx="0.65004277"
+       id="rect37" />
+    <text
+       x="224.99179"
+       y="135.65309"
+       text-anchor="middle"
+       class="tiny-label"
+       id="text38"
+       style="font-size:3.30156px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">[Dim 51-150]</text>
+    <rect
+       x="205.2412"
+       y="138.80254"
+       width="32.502136"
+       height="5.0305963"
+       fill="#afb42b"
+       stroke="#333333"
+       stroke-width="0.330156"
+       rx="0.65004277"
+       id="rect38" />
+    <text
+       x="224.99179"
+       y="140.60545"
+       text-anchor="middle"
+       class="tiny-label"
+       id="text39"
+       style="font-size:3.30156px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">[Dim 151-300]</text>
+    <text
+       x="224.99179"
+       y="146.54829"
+       text-anchor="middle"
+       class="section-title"
+       id="text40"
+       style="font-weight:bold;font-size:4.6222px;font-family:Arial, sans-serif;stroke-width:0.330156"
+       transform="scale(0.98444593,1.0157998)">Vector for &quot;King&quot;</text>
+    <text
+       xml:space="preserve"
+       id="text58"
+       style="font-size:14px;font-family:Arial, sans-serif;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect58);display:inline;fill:#000000"
+       transform="matrix(0.32502139,0,0,0.33537308,34.702598,-30.446708)"><tspan
+         x="33.644531"
+         y="407.53634"
+         id="tspan4"><tspan
+           style="font-weight:bold;font-size:8px;font-family:Sans;-inkscape-font-specification:'Sans, Bold'"
+           id="tspan3">Woman</tspan></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="258.97913mm"
+   height="129.82904mm"
+   viewBox="0 0 258.97913 129.82904"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,0 10,3.5 0,7 "
+         fill="#333333"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrowhead-3"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#333333"
+         id="polygon1-7" />
+    </marker>
+    <marker
+       id="arrowhead-3-0"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         fill="#333333"
+         id="polygon1-7-3" />
+    </marker>
+    <marker
+       id="arrowhead-3-6"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         fill="#333333"
+         id="polygon1-7-2" />
+    </marker>
+    <marker
+       id="arrowhead-3-6-9"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,0 10,3.5 0,7 "
+         fill="#333333"
+         id="polygon1-7-2-1" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-24.339168,-39.899941)">
+    <text
+       x="70.26416"
+       y="43.125298"
+       text-anchor="middle"
+       class="label"
+       id="text2"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111209,1.0089676)">Time Step t=1</text>
+    <text
+       x="154.56183"
+       y="43.125298"
+       text-anchor="middle"
+       class="label"
+       id="text3"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111209,1.0089676)">Time Step t=2</text>
+    <text
+       x="238.8595"
+       y="43.125298"
+       text-anchor="middle"
+       class="label"
+       id="text4"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111209,1.0089676)">Time Step t=3</text>
+    <rect
+       x="52.762905"
+       y="80.691238"
+       width="34.811852"
+       height="35.439014"
+       fill="#c2e0ff"
+       stroke="#333333"
+       stroke-width="0.702481"
+       rx="1.7405926"
+       id="rect4" />
+    <rect
+       x="136.31133"
+       y="80.691238"
+       width="34.811852"
+       height="35.439014"
+       fill="#c2e0ff"
+       stroke="#333333"
+       stroke-width="0.702481"
+       rx="1.7405926"
+       id="rect5" />
+    <rect
+       x="219.85979"
+       y="80.691238"
+       width="34.811852"
+       height="35.439014"
+       fill="#c2e0ff"
+       stroke="#333333"
+       stroke-width="0.702481"
+       rx="1.7405926"
+       id="rect6" />
+    <text
+       x="70.798073"
+       y="97.536057"
+       text-anchor="middle"
+       class="label"
+       id="text6"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">RNN Cell A</text>
+    <text
+       x="155.09575"
+       y="97.536057"
+       text-anchor="middle"
+       class="label"
+       id="text7"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">RNN Cell A</text>
+    <text
+       x="239.39342"
+       y="97.536057"
+       text-anchor="middle"
+       class="label"
+       id="text8"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">RNN Cell A</text>
+    <rect
+       x="52.762905"
+       y="133.84975"
+       width="34.811852"
+       height="14.175605"
+       fill="#b2dfdb"
+       stroke="#333333"
+       stroke-width="0.702481"
+       rx="1.7405926"
+       id="rect8" />
+    <rect
+       x="136.31133"
+       y="133.84975"
+       width="34.811852"
+       height="14.175605"
+       fill="#b2dfdb"
+       stroke="#333333"
+       stroke-width="0.702481"
+       rx="1.7405926"
+       id="rect9" />
+    <rect
+       x="219.85979"
+       y="133.84975"
+       width="34.811852"
+       height="14.175605"
+       fill="#b2dfdb"
+       stroke="#333333"
+       stroke-width="0.702481"
+       rx="1.7405926"
+       id="rect10" />
+    <text
+       x="70.798073"
+       y="141.44112"
+       text-anchor="middle"
+       id="text10"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">x<tspan
+   class="subscript"
+   id="tspan10"
+   style="stroke-width:0.35124">1</tspan></text>
+    <text
+       x="155.09575"
+       y="141.44112"
+       text-anchor="middle"
+       id="text11"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">x<tspan
+   class="subscript"
+   id="tspan11"
+   style="stroke-width:0.35124">2</tspan></text>
+    <text
+       x="239.39342"
+       y="141.44112"
+       text-anchor="middle"
+       id="text12"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">x<tspan
+   class="subscript"
+   id="tspan12"
+   style="stroke-width:0.35124">3</tspan></text>
+    <rect
+       x="52.762905"
+       y="48.79612"
+       width="34.811852"
+       height="14.175605"
+       fill="#ffcc80"
+       stroke="#333333"
+       stroke-width="0.702481"
+       rx="1.7405926"
+       id="rect12" />
+    <rect
+       x="136.31133"
+       y="48.79612"
+       width="34.811852"
+       height="14.175605"
+       fill="#ffcc80"
+       stroke="#333333"
+       stroke-width="0.702481"
+       rx="1.7405926"
+       id="rect13" />
+    <rect
+       x="219.85979"
+       y="48.79612"
+       width="34.811852"
+       height="14.175605"
+       fill="#ffcc80"
+       stroke="#333333"
+       stroke-width="0.702481"
+       rx="1.7405926"
+       id="rect14" />
+    <text
+       x="70.798073"
+       y="57.143433"
+       text-anchor="middle"
+       id="text14"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">y<tspan
+   class="subscript"
+   id="tspan14"
+   style="stroke-width:0.35124">1</tspan></text>
+    <text
+       x="155.09575"
+       y="57.143433"
+       text-anchor="middle"
+       id="text15"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">y<tspan
+   class="subscript"
+   id="tspan15"
+   style="stroke-width:0.35124">2</tspan></text>
+    <text
+       x="239.39342"
+       y="57.143433"
+       text-anchor="middle"
+       id="text16"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">y<tspan
+   class="subscript"
+   id="tspan16"
+   style="stroke-width:0.35124">3</tspan></text>
+    <ellipse
+       cx="31.652779"
+       cy="97.881569"
+       fill="#e6ee9c"
+       stroke="#333333"
+       stroke-width="0.702481"
+       id="circle16"
+       rx="6.9623704"
+       ry="7.0878024" />
+    <ellipse
+       cx="107.84949"
+       cy="98.410736"
+       fill="#e6ee9c"
+       stroke="#333333"
+       stroke-width="0.702481"
+       id="circle17"
+       rx="6.9623704"
+       ry="7.0878024" />
+    <ellipse
+       cx="194.83751"
+       cy="98.410736"
+       fill="#e6ee9c"
+       stroke="#333333"
+       stroke-width="0.702481"
+       id="circle18"
+       rx="6.9623704"
+       ry="7.0878024" />
+    <ellipse
+       cx="276.0047"
+       cy="98.146156"
+       fill="#e6ee9c"
+       stroke="#333333"
+       stroke-width="0.702481"
+       id="circle19"
+       rx="6.9623704"
+       ry="7.0878024" />
+    <text
+       x="31.936628"
+       y="98.767807"
+       text-anchor="middle"
+       id="text19"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.9911121,1.0089676)">h<tspan
+   class="subscript"
+   id="tspan19"
+   style="stroke-width:0.35124">0</tspan></text>
+    <text
+       x="108.81664"
+       y="99.292274"
+       text-anchor="middle"
+       id="text20"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111209,1.0089676)">h<tspan
+   class="subscript"
+   id="tspan20"
+   style="stroke-width:0.35124">1</tspan></text>
+    <text
+       x="196.58475"
+       y="99.292274"
+       text-anchor="middle"
+       id="text21"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.9911121,1.0089676)">h<tspan
+   class="subscript"
+   id="tspan21"
+   style="stroke-width:0.35124">2</tspan></text>
+    <text
+       x="278.47983"
+       y="99.030045"
+       text-anchor="middle"
+       id="text22"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111209,1.0089676)">h<tspan
+   class="subscript"
+   id="tspan22"
+   style="stroke-width:0.35124">3</tspan></text>
+    <line
+       x1="70.168823"
+       y1="133.84975"
+       x2="70.168823"
+       y2="116.13025"
+       stroke="#333333"
+       stroke-width="0.702481"
+       marker-end="url(#arrowhead)"
+       id="line22" />
+    <text
+       x="74.310463"
+       y="125.63531"
+       class="small-label"
+       id="text23"
+       style="font-style:italic;font-size:4.21488px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">W<tspan
+   class="subscript"
+   id="tspan23"
+   style="stroke-width:0.35124">xh</tspan></text>
+    <line
+       x1="153.71727"
+       y1="133.84975"
+       x2="153.71727"
+       y2="116.13025"
+       stroke="#333333"
+       stroke-width="0.702481"
+       marker-end="url(#arrowhead)"
+       id="line23" />
+    <text
+       x="158.60814"
+       y="125.63531"
+       class="small-label"
+       id="text24"
+       style="font-style:italic;font-size:4.21488px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">W<tspan
+   class="subscript"
+   id="tspan24"
+   style="stroke-width:0.35124">xh</tspan></text>
+    <line
+       x1="237.26572"
+       y1="133.84975"
+       x2="237.26572"
+       y2="116.13025"
+       stroke="#333333"
+       stroke-width="0.702481"
+       marker-end="url(#arrowhead)"
+       id="line24" />
+    <text
+       x="242.90585"
+       y="125.63531"
+       class="small-label"
+       id="text25"
+       style="font-style:italic;font-size:4.21488px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">W<tspan
+   class="subscript"
+   id="tspan25"
+   style="stroke-width:0.35124">xh</tspan></text>
+    <line
+       x1="70.168823"
+       y1="80.691238"
+       x2="70.168823"
+       y2="62.971725"
+       stroke="#333333"
+       stroke-width="0.702481"
+       marker-end="url(#arrowhead)"
+       id="line25" />
+    <text
+       x="74.310463"
+       y="72.949249"
+       class="small-label"
+       id="text26"
+       style="font-style:italic;font-size:4.21488px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">W<tspan
+   class="subscript"
+   id="tspan26"
+   style="stroke-width:0.35124">hy</tspan></text>
+    <line
+       x1="153.71727"
+       y1="80.691238"
+       x2="153.71727"
+       y2="62.971725"
+       stroke="#333333"
+       stroke-width="0.702481"
+       marker-end="url(#arrowhead)"
+       id="line26" />
+    <text
+       x="158.60814"
+       y="72.949249"
+       class="small-label"
+       id="text27"
+       style="font-style:italic;font-size:4.21488px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">W<tspan
+   class="subscript"
+   id="tspan27"
+   style="stroke-width:0.35124">hy</tspan></text>
+    <line
+       x1="237.26572"
+       y1="80.691238"
+       x2="237.26572"
+       y2="62.971725"
+       stroke="#333333"
+       stroke-width="0.702481"
+       marker-end="url(#arrowhead)"
+       id="line27" />
+    <text
+       x="242.90585"
+       y="72.949249"
+       class="small-label"
+       id="text28"
+       style="font-style:italic;font-size:4.21488px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">W<tspan
+   class="subscript"
+   id="tspan28"
+   style="stroke-width:0.35124">hy</tspan></text>
+    <line
+       x1="114.81187"
+       y1="98.410736"
+       x2="136.54283"
+       y2="98.410736"
+       stroke="#333333"
+       stroke-width="0.9308"
+       marker-end="url(#arrowhead)"
+       id="line30" />
+    <line
+       x1="202.32907"
+       y1="98.410736"
+       x2="220.25288"
+       y2="98.410736"
+       stroke="#333333"
+       stroke-width="0.845342"
+       marker-end="url(#arrowhead)"
+       id="line32" />
+    <line
+       x1="171.71457"
+       y1="98.473282"
+       x2="187.11172"
+       y2="98.473282"
+       stroke="#333333"
+       stroke-width="0.783497"
+       marker-end="url(#arrowhead-3)"
+       id="line32-2"
+       style="marker-end:url(#arrowhead-3)" />
+    <line
+       x1="87.84166"
+       y1="98.256821"
+       x2="100.46933"
+       y2="98.256821"
+       stroke="#333333"
+       stroke-width="0.709543"
+       marker-end="url(#arrowhead-3-6)"
+       id="line32-2-3"
+       style="marker-end:url(#arrowhead-3-6)" />
+    <line
+       x1="39.422913"
+       y1="97.997978"
+       x2="52.050583"
+       y2="97.997978"
+       stroke="#333333"
+       stroke-width="0.709543"
+       marker-end="url(#arrowhead-3-6-9)"
+       id="line32-2-3-3"
+       style="marker-end:url(#arrowhead-3-6-9)" />
+    <line
+       x1="255.05833"
+       y1="98.5214"
+       x2="267.93777"
+       y2="98.5214"
+       stroke="#333333"
+       stroke-width="0.716581"
+       marker-end="url(#arrowhead-3-0)"
+       id="line32-2-6"
+       style="marker-end:url(#arrowhead-3-0)" />
+    <text
+       x="117.56913"
+       y="94.023666"
+       class="small-label"
+       id="text33"
+       style="font-style:italic;font-size:4.21488px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111209,1.0089676)">W<tspan
+   class="subscript"
+   id="tspan33"
+   style="stroke-width:0.35124">hh</tspan></text>
+    <text
+       x="205.07027"
+       y="94.023666"
+       class="small-label"
+       id="text34"
+       style="font-style:italic;font-size:4.21488px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111209,1.0089676)">W<tspan
+   class="subscript"
+   id="tspan34"
+   style="stroke-width:0.35124">hh</tspan></text>
+    <rect
+       x="24.913391"
+       y="162.20097"
+       width="48.736595"
+       height="7.0878024"
+       fill="#b2dfdb"
+       stroke="#333333"
+       stroke-width="0.35124"
+       rx="1.0443555"
+       id="rect34" />
+    <text
+       x="49.723648"
+       y="166.02794"
+       text-anchor="middle"
+       id="text35"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">Input Vectors (x<tspan
+   class="subscript"
+   id="tspan35"
+   style="stroke-width:0.35124">t</tspan>)</text>
+    <rect
+       x="77.131195"
+       y="162.20097"
+       width="48.736595"
+       height="7.0878024"
+       fill="#c2e0ff"
+       stroke="#333333"
+       stroke-width="0.35124"
+       rx="1.0443555"
+       id="rect35" />
+    <text
+       x="102.4097"
+       y="166.02794"
+       text-anchor="middle"
+       id="text36"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">RNN Cells</text>
+    <rect
+       x="129.34897"
+       y="162.20097"
+       width="48.736595"
+       height="7.0878024"
+       fill="#ffcc80"
+       stroke="#333333"
+       stroke-width="0.35124"
+       rx="1.0443555"
+       id="rect36" />
+    <text
+       x="155.09575"
+       y="166.02794"
+       text-anchor="middle"
+       id="text37"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111207,1.0089676)">Output Vectors (y<tspan
+   class="subscript"
+   id="tspan36"
+   style="stroke-width:0.35124">t</tspan>)</text>
+    <ellipse
+       cx="185.9249"
+       cy="166.00946"
+       fill="#e6ee9c"
+       stroke="#333333"
+       stroke-width="0.35124"
+       id="circle37"
+       rx="3.4811852"
+       ry="3.5439012" />
+    <text
+       x="212.40402"
+       y="166.02794"
+       text-anchor="middle"
+       id="text38"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111209,1.0089676)">Hidden States (h<tspan
+   class="subscript"
+   id="tspan37"
+   style="stroke-width:0.35124">t</tspan>)</text>
+    <line
+       x1="231.36169"
+       y1="165.74487"
+       x2="243.04478"
+       y2="165.74487"
+       stroke="#333333"
+       stroke-width="0.743001"
+       marker-end="url(#arrowhead)"
+       id="line38" />
+    <text
+       x="265.0061"
+       y="166.02794"
+       text-anchor="middle"
+       id="text39"
+       style="font-size:4.91737px;font-family:Arial, sans-serif;stroke-width:0.35124"
+       transform="scale(0.99111209,1.0089676)">Information Flow</text>
+  </g>
+</svg>
