@@ -1,0 +1,13 @@
+# requirements.txt for EmbedEvolution Stage 1 (RNN)
+numpy
+tensorflow
+scikit-learn
+matplotlib
+gensim
+nltk
+torch
+transformers
+ipywidgets
+tf-keras
+sentence-transformers
+einops
