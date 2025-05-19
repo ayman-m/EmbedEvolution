@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="skip-gram_architecture_diagram.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1"
+     inkscape:cx="550"
+     inkscape:cy="395"
+     inkscape:window-width="1728"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,0 10,3.5 0,7 "
+         fill="#333333"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrowhead-4"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#333333"
+         id="polygon1-0" />
+    </marker>
+    <marker
+       id="arrowhead-5"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#333333"
+         id="polygon1-6" />
+    </marker>
+    <marker
+       id="arrowhead-4-8"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         fill="#333333"
+         id="polygon1-0-4" />
+    </marker>
+  </defs>
+  <g
+     id="layer1">
+    <text
+       x="49.926624"
+       y="30.507025"
+       text-anchor="middle"
+       class="layer-title"
+       id="text2"
+       style="font-weight:bold;font-size:5.06104px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Input Layer</text>
+    <rect
+       x="26.897255"
+       y="36.498093"
+       width="48.18327"
+       height="21.199879"
+       fill="#b3e5fc"
+       stroke="#333333"
+       stroke-width="0.789411"
+       rx="2.4091637"
+       id="rect2" />
+    <text
+       x="49.926624"
+       y="44.741199"
+       text-anchor="middle"
+       class="label"
+       id="text3"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Input Word</text>
+    <text
+       x="49.926624"
+       y="51.06749"
+       text-anchor="middle"
+       class="label"
+       id="text4"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">&quot;fox&quot;</text>
+    <text
+       x="49.926624"
+       y="55.812214"
+       text-anchor="middle"
+       class="small-label"
+       id="text5"
+       style="font-size:3.79578px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">(w(t))</text>
+    <rect
+       x="26.60005"
+       y="64.450661"
+       width="48.027309"
+       height="77.603622"
+       fill="#e1f5fe"
+       stroke="#333333"
+       stroke-width="0.636363"
+       rx="1.6009103"
+       id="rect5" />
+    <text
+       x="49.926624"
+       y="71.627968"
+       text-anchor="middle"
+       class="label"
+       id="text6"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">One-hot Vector</text>
+    <text
+       x="49.926624"
+       y="77.954269"
+       text-anchor="middle"
+       class="dimension"
+       id="text7"
+       style="font-style:italic;font-size:3.79578px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">(Size: N x 1)</text>
+    <text
+       x="49.926624"
+       y="85.862144"
+       text-anchor="middle"
+       class="one-hot"
+       id="text8"
+       style="font-size:3.47947px;font-family:Consolas, monospace;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">[0]</text>
+    <text
+       x="49.926624"
+       y="92.188461"
+       text-anchor="middle"
+       class="one-hot"
+       id="text9"
+       style="font-size:3.47947px;font-family:Consolas, monospace;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">[0]</text>
+    <text
+       x="49.926624"
+       y="98.51474"
+       text-anchor="middle"
+       class="one-hot"
+       id="text10"
+       style="font-size:3.47947px;font-family:Consolas, monospace;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">[1]</text>
+    <text
+       x="49.926624"
+       y="104.84103"
+       text-anchor="middle"
+       class="one-hot"
+       id="text11"
+       style="font-size:3.47947px;font-family:Consolas, monospace;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">[0]</text>
+    <text
+       x="49.926624"
+       y="111.16735"
+       text-anchor="middle"
+       class="one-hot"
+       id="text12"
+       style="font-size:3.47947px;font-family:Consolas, monospace;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">...</text>
+    <text
+       x="49.926624"
+       y="117.49364"
+       text-anchor="middle"
+       class="one-hot"
+       id="text13"
+       style="font-size:3.47947px;font-family:Consolas, monospace;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">[0]</text>
+    <text
+       x="60.90435"
+       y="106.17351"
+       text-anchor="middle"
+       class="note"
+       id="text14"
+       transform="scale(0.84259975,1.1868031)"
+       style="font-style:italic;font-size:4.11209px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.262858;stroke-dasharray:none"><tspan
+         id="tspan61"
+         x="60.90435"
+         y="106.17351"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Italic';stroke:none;stroke-width:0.262858;stroke-dasharray:none;stroke-opacity:1">Position of 1 corresponds</tspan><tspan
+         id="tspan62"
+         x="60.90435"
+         y="111.31362"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Italic';stroke:none;stroke-width:0.262858;stroke-dasharray:none;stroke-opacity:1">to word index in</tspan><tspan
+         x="60.90435"
+         y="116.45374"
+         id="tspan63"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Italic';stroke:none;stroke-width:0.262858;stroke-dasharray:none;stroke-opacity:1">vocabulary Lookup row</tspan></text>
+    <text
+       x="139.12747"
+       y="30.507025"
+       text-anchor="middle"
+       class="layer-title"
+       id="text16"
+       style="font-weight:bold;font-size:5.06104px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Embedding/Projection Layer</text>
+    <rect
+       x="117.96928"
+       y="54.8498"
+       width="41.644821"
+       height="68.496498"
+       fill="#dcedc8"
+       stroke="#333333"
+       stroke-width="0.647803"
+       rx="1.0411204"
+       id="rect16" />
+    <text
+       x="139.12747"
+       y="38.936611"
+       text-anchor="middle"
+       class="matrix-label"
+       id="text17"
+       style="font-style:italic;font-size:5.06104px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">W_in (or V_w)</text>
+    <text
+       x="139.12747"
+       y="45.262905"
+       text-anchor="middle"
+       class="dimension"
+       id="text18"
+       style="font-style:italic;font-size:3.79578px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Input Weight Matrix (Size: N x D)</text>
+    <line
+       x1="123.04009"
+       y1="68.159454"
+       x2="154.76836"
+       y2="68.159454"
+       stroke="#777777"
+       stroke-width="0.263618"
+       id="line18" />
+    <line
+       x1="122.10548"
+       y1="80.491814"
+       x2="153.83374"
+       y2="80.491814"
+       stroke="#777777"
+       stroke-width="0.263618"
+       id="line18-7" />
+    <line
+       x1="122.05445"
+       y1="103.82272"
+       x2="153.7827"
+       y2="103.82272"
+       stroke="#777777"
+       stroke-width="0.263618"
+       id="line18-7-8" />
+    <line
+       x1="122.59002"
+       y1="92.792999"
+       x2="154.09322"
+       y2="92.792999"
+       stroke="#333333"
+       stroke-width="0.530619"
+       stroke-dasharray="5, 3"
+       id="line20" />
+    <line
+       x1="147.06149"
+       y1="61.919029"
+       x2="147.06149"
+       y2="115.40118"
+       stroke="#777777"
+       stroke-width="0.363211"
+       id="line24" />
+    <line
+       x1="137.99084"
+       y1="61.775688"
+       x2="137.99084"
+       y2="115.25785"
+       stroke="#777777"
+       stroke-width="0.363211"
+       id="line24-1" />
+    <line
+       x1="129.08545"
+       y1="61.432087"
+       x2="129.08545"
+       y2="114.91424"
+       stroke="#777777"
+       stroke-width="0.363211"
+       id="line24-3" />
+    <text
+       x="109.17726"
+       y="91.421768"
+       text-anchor="end"
+       class="note"
+       id="text24"
+       style="font-style:italic;font-size:4.11209px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Word &quot;fox&quot;</text>
+    <text
+       x="109.38742"
+       y="98.902916"
+       text-anchor="end"
+       class="note"
+       id="text25"
+       style="font-style:italic;font-size:4.11209px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">embedding</text>
+    <text
+       x="147.29955"
+       y="54.012894"
+       text-anchor="start"
+       class="matrix-dim"
+       id="text26"
+       style="font-size:3.16314px;font-family:Arial, sans-serif;fill:#777777;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Bold';stroke-width:0.316314"
+         id="tspan65">N rows</tspan></text>
+    <text
+       x="-124.69066"
+       y="161.79195"
+       text-anchor="start"
+       class="matrix-dim"
+       id="text27"
+       transform="matrix(0.00176469,-0.9864235,1.0137603,0.00171711,0,0)"
+       style="font-size:3.16314px;font-family:Arial, sans-serif;fill:#777777;stroke-width:0.316314"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Bold';stroke-width:0.316314"
+         id="tspan64">D columns</tspan></text>
+    <rect
+       x="122.52717"
+       y="127.00149"
+       width="32.066807"
+       height="15.601049"
+       fill="#aed581"
+       stroke="#333333"
+       stroke-width="0.632631"
+       rx="1.6033403"
+       id="rect27" />
+    <text
+       x="136.67961"
+       y="133.49399"
+       text-anchor="middle"
+       class="label"
+       id="text28"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Embedding for</text>
+    <text
+       x="136.67961"
+       y="139.82028"
+       text-anchor="middle"
+       class="label"
+       id="text29"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">w(t) = &quot;fox&quot;</text>
+    <text
+       x="136.67961"
+       y="149.27818"
+       text-anchor="middle"
+       class="dimension"
+       id="text30"
+       style="font-style:italic;font-size:3.79578px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">(Size: 1 x D)</text>
+    <text
+       x="223.89986"
+       y="30.507025"
+       text-anchor="middle"
+       class="layer-title"
+       id="text31"
+       style="font-weight:bold;font-size:5.06104px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Output Layer</text>
+    <rect
+       x="191.0791"
+       y="54.572929"
+       width="70.546974"
+       height="40.562729"
+       fill="#ffecb3"
+       stroke="#333333"
+       stroke-width="0.632631"
+       rx="1.6033403"
+       id="rect31" />
+    <text
+       x="224.20987"
+       y="38.882664"
+       text-anchor="middle"
+       class="matrix-label"
+       id="text32"
+       style="font-style:italic;font-size:5.06104px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">W_out (or U_c)</text>
+    <text
+       x="224.20987"
+       y="45.208969"
+       text-anchor="middle"
+       class="dimension"
+       id="text33"
+       style="font-style:italic;font-size:3.79578px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Output Weight Matrix (Size: D x N)</text>
+    <line
+       x1="197.49249"
+       y1="63.933559"
+       x2="255.21274"
+       y2="63.933559"
+       stroke="#777777"
+       stroke-width="0.316314"
+       id="line33" />
+    <line
+       x1="197.49249"
+       y1="73.294182"
+       x2="255.21274"
+       y2="73.294182"
+       stroke="#777777"
+       stroke-width="0.316314"
+       id="line34" />
+    <line
+       x1="197.49249"
+       y1="82.654816"
+       x2="255.21274"
+       y2="82.654816"
+       stroke="#777777"
+       stroke-width="0.316314"
+       id="line35" />
+    <line
+       x1="207.11253"
+       y1="57.69313"
+       x2="207.11253"
+       y2="92.015442"
+       stroke="#777777"
+       stroke-width="0.316314"
+       id="line36" />
+    <line
+       x1="216.73257"
+       y1="57.69313"
+       x2="216.73257"
+       y2="92.015442"
+       stroke="#777777"
+       stroke-width="0.316314"
+       id="line37" />
+    <line
+       x1="226.35262"
+       y1="57.69313"
+       x2="226.35262"
+       y2="92.015442"
+       stroke="#777777"
+       stroke-width="0.316314"
+       id="line38" />
+    <line
+       x1="235.97266"
+       y1="57.69313"
+       x2="235.97266"
+       y2="92.015442"
+       stroke="#777777"
+       stroke-width="0.316314"
+       id="line39" />
+    <line
+       x1="245.5927"
+       y1="57.69313"
+       x2="245.5927"
+       y2="92.015442"
+       stroke="#777777"
+       stroke-width="0.316314"
+       id="line40" />
+    <text
+       x="256.84457"
+       y="53.818123"
+       text-anchor="end"
+       class="matrix-dim"
+       id="text40"
+       style="font-size:3.16314px;font-family:Arial, sans-serif;fill:#777777;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Bold';stroke-width:0.316314"
+         id="tspan66">D rows</tspan></text>
+    <text
+       x="-97.229416"
+       y="261.62805"
+       text-anchor="start"
+       class="matrix-dim"
+       id="text41"
+       transform="matrix(-0.00897719,-0.98638629,1.0137221,-0.00873511,0,0)"
+       style="font-size:3.16314px;font-family:Arial, sans-serif;fill:#777777;stroke-width:0.316314"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Bold';stroke-width:0.316314"
+         id="tspan67">N columns</tspan></text>
+    <rect
+       x="210.21051"
+       y="144.87791"
+       width="29.558086"
+       height="10.998183"
+       fill="#ffd54f"
+       stroke="#333333"
+       stroke-width="0.602485"
+       rx="1.2315868"
+       id="rect41" />
+    <text
+       x="222.3793"
+       y="153.29825"
+       text-anchor="middle"
+       class="label"
+       id="text42"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">w(t-2)</text>
+    <rect
+       x="212.23283"
+       y="129.27386"
+       width="28.889084"
+       height="11.004143"
+       fill="#ffd54f"
+       stroke="#333333"
+       stroke-width="0.569889"
+       rx="1.2037119"
+       id="rect42" />
+    <text
+       x="225.04314"
+       y="137.4825"
+       text-anchor="middle"
+       class="label"
+       id="text43"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">w(t-1)</text>
+    <rect
+       x="214.92978"
+       y="113.66934"
+       width="28.2211"
+       height="11.011087"
+       fill="#ffd54f"
+       stroke="#333333"
+       stroke-width="0.572189"
+       rx="1.175879"
+       id="rect43" />
+    <text
+       x="228.59491"
+       y="121.66675"
+       text-anchor="middle"
+       class="label"
+       id="text44"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">w(t+1)</text>
+    <rect
+       x="207.06386"
+       y="160.48279"
+       width="30.000277"
+       height="10.990504"
+       fill="#ffd54f"
+       stroke="#333333"
+       stroke-width="0.644365"
+       rx="1.2500116"
+       id="rect44" />
+    <text
+       x="219.27147"
+       y="169.336"
+       text-anchor="middle"
+       class="label"
+       id="text45"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">w(t+2)</text>
+    <text
+       x="248.57243"
+       y="122.55468"
+       text-anchor="start"
+       class="label"
+       id="text46"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Softmax</text>
+    <text
+       x="248.57243"
+       y="138.37042"
+       text-anchor="start"
+       class="label"
+       id="text47"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Softmax</text>
+    <text
+       x="248.57243"
+       y="154.18619"
+       text-anchor="start"
+       class="label"
+       id="text48"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Softmax</text>
+    <text
+       x="248.57243"
+       y="170.00194"
+       text-anchor="start"
+       class="label"
+       id="text49"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Softmax</text>
+    <line
+       x1="86.528526"
+       y1="92.552315"
+       x2="116.76299"
+       y2="92.552315"
+       stroke="#333333"
+       stroke-width="0.653378"
+       marker-end="url(#arrowhead)"
+       id="line51" />
+    <line
+       x1="160.25932"
+       y1="69.095001"
+       x2="190.82159"
+       y2="69.095001"
+       stroke="#333333"
+       stroke-width="0.656914"
+       marker-end="url(#arrowhead-4)"
+       id="line51-7"
+       style="marker-end:url(#arrowhead-4)" />
+    <text
+       x="136.83734"
+       y="155.23138"
+       text-anchor="middle"
+       class="note"
+       id="text52"
+       style="font-style:italic;font-size:4.11209px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Matrix multiply</text>
+    <line
+       x1="86.587318"
+       y1="101.58677"
+       x2="86.587318"
+       y2="92.157326"
+       stroke="#333333"
+       stroke-width="0.347778"
+       id="line53-1" />
+    <line
+       x1="223.13313"
+       y1="94.924217"
+       x2="223.13313"
+       y2="128.70782"
+       stroke="#333333"
+       stroke-width="0.583351"
+       marker-end="url(#arrowhead)"
+       id="line56" />
+    <line
+       x1="219.92642"
+       y1="95.005096"
+       x2="219.92642"
+       y2="144.59856"
+       stroke="#333333"
+       stroke-width="0.598854"
+       marker-end="url(#arrowhead)"
+       id="line57" />
+    <line
+       x1="216.71977"
+       y1="94.919632"
+       x2="216.71977"
+       y2="160.29784"
+       stroke="#333333"
+       stroke-width="0.601698"
+       marker-end="url(#arrowhead)"
+       id="line58" />
+    <rect
+       x="203.89304"
+       y="110.59431"
+       width="44.893532"
+       height="63.964302"
+       fill="none"
+       stroke="#555555"
+       stroke-width="0.632631"
+       stroke-dasharray="5, 3"
+       rx="1.6033403"
+       id="rect58" />
+    <text
+       x="224.53249"
+       y="182.02193"
+       text-anchor="middle"
+       class="label"
+       id="text58"
+       style="font-size:4.42841px;font-family:Arial, sans-serif;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">Context Window</text>
+    <text
+       x="65.969849"
+       y="155.61343"
+       text-anchor="middle"
+       class="note"
+       id="text59-3"
+       style="font-style:italic;font-size:4.11209px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="65.969849"
+         y="155.61343"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Bold'"
+   id="tspan1">Vocabulary</tspan> is the list of the unique words in</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="65.969849"
+         y="160.76353">the training dataset, could be in thousands</tspan></text>
+    <text
+       x="86.845055"
+       y="168.23045"
+       text-anchor="middle"
+       class="note"
+       id="text60"
+       style="font-style:italic;font-size:4.11209px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Bold'"
+   id="tspan2">N</tspan> = Vocabulary Size, <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Bold'"
+   id="tspan3">D</tspan> = Embedding Dimension (typically 100-300)</text>
+    <text
+       x="81.295364"
+       y="173.89079"
+       text-anchor="middle"
+       class="note"
+       id="text61"
+       style="font-style:italic;font-size:4.11209px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.316314"
+       transform="scale(1.0137618,0.98642501)">After training, W_in matrix rows become the word embeddings</text>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.533624;stroke-dasharray:none;stroke-opacity:1"
+       d="M 74.179617,101.43119 H 86.740986"
+       id="path63" />
+    <line
+       x1="226.13087"
+       y1="95.178665"
+       x2="226.13087"
+       y2="113.40233"
+       stroke="#333333"
+       stroke-width="0.428445"
+       marker-end="url(#arrowhead-5)"
+       id="line56-4"
+       style="marker-end:url(#arrowhead-5)" />
+    <line
+       x1="190.47934"
+       y1="79.694443"
+       x2="159.91705"
+       y2="79.748199"
+       stroke="#333333"
+       stroke-width="0.656914"
+       marker-end="url(#arrowhead-4-8)"
+       id="line51-7-3"
+       style="marker-end:url(#arrowhead-4-8)" />
+    <text
+       x="193.68382"
+       y="89.373917"
+       text-anchor="end"
+       class="note"
+       id="text25-2"
+       style="font-style:italic;font-size:3.74028px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.287712"
+       transform="scale(0.96899207,1.0320002)">Weights Update</text>
+    <text
+       x="194.82095"
+       y="83.436798"
+       text-anchor="end"
+       class="note"
+       id="text25-2-7"
+       style="font-style:italic;font-size:3.74028px;font-family:Arial, sans-serif;fill:#555555;stroke-width:0.287712"
+       transform="scale(0.96899207,1.0320002)">BackPropagation</text>
+  </g>
+</svg>

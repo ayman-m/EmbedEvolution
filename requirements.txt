@@ -11,3 +11,4 @@ ipywidgets
 tf-keras
 sentence-transformers
 einops
+ipykernel

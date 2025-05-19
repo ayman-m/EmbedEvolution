@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 900 600"
+   version="1.1"
+   id="svg93"
+   sodipodi:docname="word2vec_cbow_skipgram_comparison.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview93"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.96310531"
+     inkscape:cx="394.55706"
+     inkscape:cy="362.36951"
+     inkscape:window-width="1728"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg93" />
+  <!-- Styles -->
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#0066cc"
+         id="polygon1" />
+    </marker>
+    <style
+       id="style1">
+      text {
+        font-family: Arial, sans-serif;
+      }
+      .title {
+        font-size: 40px;
+        font-weight: bold;
+      }
+      .subtitle {
+        font-size: 36px;
+        font-weight: bold;
+      }
+      .label {
+        font-size: 14px;
+      }
+      .vector-label {
+        font-size: 12px;
+      }
+      .small-label {
+        font-size: 12px;
+      }
+      .small-text {
+        font-size: 10px;
+      }
+      .vector-value {
+        font-family: Consolas, monospace;
+        font-size: 16px;
+        dominant-baseline: middle;
+        text-anchor: middle;
+      }
+    </style>
+    <marker
+       id="arrowhead-3"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#0066cc"
+         id="polygon1-2" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <!-- Title -->
+  <text
+     x="445.26416"
+     y="64.957703"
+     text-anchor="middle"
+     class="title"
+     id="text1">Word2Vec</text>
+  <!-- Branch lines -->
+  <path
+     d="m 445.26417,80.804469 q 0,24.425381 0,36.638071 v 12.21269"
+     stroke="#0066cc"
+     stroke-width="2.34429"
+     fill="none"
+     id="path1" />
+  <path
+     d="m 445.26417,129.65523 q -170,0 -210,20"
+     stroke="#0066cc"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     id="path2" />
+  <path
+     d="m 445.26417,129.65523 q 170,0 210,20"
+     stroke="#0066cc"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrowhead)"
+     id="path3" />
+  <!-- Model names -->
+  <text
+     x="227.56264"
+     y="190.69354"
+     text-anchor="middle"
+     class="subtitle"
+     id="text3">CBOW</text>
+  <text
+     x="654.88904"
+     y="189.65523"
+     text-anchor="middle"
+     class="subtitle"
+     id="text4">Skip-gram</text>
+  <!-- CBOW side -->
+  <!-- Input vectors -->
+  <rect
+     x="109.26417"
+     y="235.65523"
+     width="40"
+     height="110"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="2"
+     rx="5"
+     id="rect4" />
+  <rect
+     x="77.139008"
+     y="206.41408"
+     width="348.88187"
+     height="337.36566"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="10.1242"
+     rx="19.876858"
+     id="rect4-9"
+     style="stroke:#029e00;stroke-width:2.04345;stroke-dasharray:2.04345, 2.04345;stroke-dashoffset:0;stroke-opacity:1;fill:none;fill-opacity:0.00543478" />
+  <rect
+     x="484.98651"
+     y="205.85806"
+     width="348.87961"
+     height="338.11481"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="10.1242"
+     rx="19.876728"
+     id="rect4-9-6"
+     style="stroke:#029e00;stroke-width:2.04571;stroke-dasharray:2.04571, 2.04571;stroke-dashoffset:0;stroke-opacity:1;fill:none" />
+  <text
+     x="134.26416"
+     y="226.65523"
+     text-anchor="middle"
+     class="small-label"
+     id="text5">one-hot vector</text>
+  <text
+     x="129.26416"
+     y="252.65523"
+     text-anchor="middle"
+     class="vector-value"
+     id="text7">1</text>
+  <text
+     x="129.26416"
+     y="274.65521"
+     text-anchor="middle"
+     class="vector-value"
+     id="text8">0</text>
+  <text
+     x="129.26416"
+     y="294.65521"
+     text-anchor="middle"
+     class="vector-value"
+     id="text9">0</text>
+  <text
+     x="129.26416"
+     y="314.65521"
+     text-anchor="middle"
+     class="vector-value"
+     id="text10">0</text>
+  <text
+     x="129.26416"
+     y="334.65521"
+     text-anchor="middle"
+     class="vector-value"
+     id="text11">0</text>
+  <rect
+     x="109.26417"
+     y="395.65521"
+     width="40"
+     height="110"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="2"
+     rx="5"
+     id="rect11" />
+  <text
+     x="129.26416"
+     y="378.65521"
+     text-anchor="middle"
+     class="small-label"
+     id="text12">one-hot vector of</text>
+  <text
+     x="129.26416"
+     y="409.65521"
+     text-anchor="middle"
+     class="vector-value"
+     id="text14">0</text>
+  <text
+     x="129.26416"
+     y="429.65521"
+     text-anchor="middle"
+     class="vector-value"
+     id="text15">0</text>
+  <text
+     x="129.26416"
+     y="449.65521"
+     text-anchor="middle"
+     class="vector-value"
+     id="text16">1</text>
+  <text
+     x="129.26416"
+     y="469.65521"
+     text-anchor="middle"
+     class="vector-value"
+     id="text17">0</text>
+  <text
+     x="129.26416"
+     y="491.65521"
+     text-anchor="middle"
+     class="vector-value"
+     id="text18">0</text>
+  <!-- Hidden layer -->
+  <rect
+     x="209.26416"
+     y="309.65521"
+     width="40"
+     height="110"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="2"
+     rx="5"
+     id="rect18" />
+  <circle
+     cx="229.26416"
+     cy="329.65521"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle18" />
+  <circle
+     cx="229.26416"
+     cy="359.65521"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle19" />
+  <circle
+     cx="229.26416"
+     cy="389.65521"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle20" />
+  <text
+     x="229.26416"
+     y="439.65521"
+     text-anchor="middle"
+     class="small-label"
+     id="text20">3 nodes in</text>
+  <text
+     x="229.26416"
+     y="454.65521"
+     text-anchor="middle"
+     class="small-label"
+     id="text21">hidden layer,</text>
+  <!-- Output/Predicted -->
+  <rect
+     x="289.38342"
+     y="297.66089"
+     width="39.839832"
+     height="128.83983"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="2.16017"
+     rx="4.979979"
+     id="rect23" />
+  <circle
+     cx="309.30334"
+     cy="316.58081"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle23" />
+  <circle
+     cx="309.30334"
+     cy="346.58081"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle24" />
+  <circle
+     cx="309.30334"
+     cy="376.58081"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle25" />
+  <circle
+     cx="309.30334"
+     cy="406.58081"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle26" />
+  <!-- Context window and target -->
+  <rect
+     x="359.50552"
+     y="281.78299"
+     width="39.595669"
+     height="160.59567"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="2.40433"
+     rx="4.9494586"
+     id="rect26" />
+  <text
+     x="379.30334"
+     y="302.58081"
+     text-anchor="middle"
+     class="vector-value"
+     id="text29">0</text>
+  <text
+     x="379.30334"
+     y="332.58081"
+     text-anchor="middle"
+     class="vector-value"
+     id="text30">1</text>
+  <text
+     x="379.30334"
+     y="362.58081"
+     text-anchor="middle"
+     class="vector-value"
+     id="text31">0</text>
+  <text
+     x="379.30334"
+     y="392.58081"
+     text-anchor="middle"
+     class="vector-value"
+     id="text32">0</text>
+  <text
+     x="379.30334"
+     y="422.58081"
+     text-anchor="middle"
+     class="vector-value"
+     id="text33">0</text>
+  <text
+     x="380.68704"
+     y="460.30447"
+     text-anchor="middle"
+     class="small-label"
+     id="text34">ActualWord</text>
+  <text
+     x="305.30334"
+     y="448.58081"
+     text-anchor="middle"
+     class="small-label"
+     id="text35">predicted</text>
+  <text
+     x="305.30334"
+     y="464.58081"
+     text-anchor="middle"
+     class="small-label"
+     id="text37">of &quot;word&quot;</text>
+  <!-- Context brackets -->
+  <!-- Connections -->
+  <line
+     x1="149.15105"
+     y1="286.54169"
+     x2="208.76097"
+     y2="331.60364"
+     stroke="#9900cc"
+     stroke-width="1.7276"
+     id="line41" />
+  <line
+     x1="149.15105"
+     y1="286.54169"
+     x2="208.76097"
+     y2="361.64493"
+     stroke="#9900cc"
+     stroke-width="1.7276"
+     id="line42" />
+  <line
+     x1="149.15105"
+     y1="286.54169"
+     x2="208.76097"
+     y2="391.68625"
+     stroke="#9900cc"
+     stroke-width="1.7276"
+     id="line43" />
+  <line
+     x1="149.15105"
+     y1="451.76883"
+     x2="208.76097"
+     y2="331.60364"
+     stroke="#ffcc00"
+     stroke-width="1.7276"
+     id="line44" />
+  <line
+     x1="149.15105"
+     y1="451.76883"
+     x2="208.76097"
+     y2="361.64493"
+     stroke="#ffcc00"
+     stroke-width="1.7276"
+     id="line45" />
+  <line
+     x1="149.15105"
+     y1="451.76883"
+     x2="208.76097"
+     y2="391.68625"
+     stroke="#ffcc00"
+     stroke-width="1.7276"
+     id="line46" />
+  <line
+     x1="249.20914"
+     y1="329.5379"
+     x2="288.70288"
+     y2="359.65521"
+     stroke="#333333"
+     stroke-width="1.6258"
+     id="line47" />
+  <line
+     x1="249.20914"
+     y1="359.65521"
+     x2="288.70288"
+     y2="359.65521"
+     stroke="#333333"
+     stroke-width="1.6258"
+     id="line48" />
+  <line
+     x1="249.20914"
+     y1="389.77252"
+     x2="288.70288"
+     y2="359.65521"
+     stroke="#333333"
+     stroke-width="1.6258"
+     id="line49" />
+  <line
+     x1="328.21283"
+     y1="361.21393"
+     x2="358.57083"
+     y2="360.55399"
+     stroke="#0066cc"
+     stroke-width="1.41061"
+     marker-end="url(#arrowhead)"
+     id="line50" />
+  <line
+     x1="535.42493"
+     y1="366.92688"
+     x2="586.86865"
+     y2="366.35001"
+     stroke="#0066cc"
+     stroke-width="1.71679"
+     marker-end="url(#arrowhead-3)"
+     id="line50-1"
+     style="marker-end:url(#arrowhead-3)" />
+  <!-- Skip-gram side -->
+  <!-- Input vector -->
+  <rect
+     x="509.80347"
+     y="301.28253"
+     width="39.769356"
+     height="137.62758"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="2.23065"
+     rx="4.9711695"
+     id="rect50" />
+  <text
+     x="530.77258"
+     y="291.61157"
+     text-anchor="middle"
+     class="small-label"
+     id="text50">one-hot vector</text>
+  <text
+     x="484.37643"
+     y="349.9281"
+     text-anchor="middle"
+     class="vector-value"
+     id="text52"
+     transform="scale(1.0935462,0.9144561)"
+     style="stroke-width:0.914456">0</text>
+  <text
+     x="484.37643"
+     y="377.36179"
+     text-anchor="middle"
+     class="vector-value"
+     id="text53"
+     transform="scale(1.0935462,0.9144561)"
+     style="stroke-width:0.914456">1</text>
+  <text
+     x="484.37643"
+     y="404.79547"
+     text-anchor="middle"
+     class="vector-value"
+     id="text54"
+     transform="scale(1.0935462,0.9144561)"
+     style="stroke-width:0.914456">0</text>
+  <text
+     x="484.37643"
+     y="432.22916"
+     text-anchor="middle"
+     class="vector-value"
+     id="text55"
+     transform="scale(1.0935462,0.9144561)"
+     style="stroke-width:0.914456">0</text>
+  <text
+     x="484.37643"
+     y="459.66284"
+     text-anchor="middle"
+     class="vector-value"
+     id="text56"
+     transform="scale(1.0935462,0.9144561)"
+     style="stroke-width:0.914456">0</text>
+  <!-- Hidden layer -->
+  <rect
+     x="585.27301"
+     y="316.23663"
+     width="40.030052"
+     height="106.63914"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.96995"
+     rx="5.0037565"
+     id="rect56" />
+  <circle
+     cx="605.28802"
+     cy="340.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle56" />
+  <circle
+     cx="605.28802"
+     cy="370.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle57" />
+  <circle
+     cx="605.28802"
+     cy="400.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle58" />
+  <text
+     x="605.28802"
+     y="450.25165"
+     text-anchor="middle"
+     class="small-label"
+     id="text58">3 nodes in</text>
+  <text
+     x="605.28802"
+     y="465.25165"
+     text-anchor="middle"
+     class="small-label"
+     id="text59">hidden layer,</text>
+  <!-- Output/Predicted vectors -->
+  <rect
+     x="685.37897"
+     y="240.34256"
+     width="39.818176"
+     height="131.50719"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="2.18182"
+     rx="4.977272"
+     id="rect61" />
+  <circle
+     cx="705.28802"
+     cy="260.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle61" />
+  <circle
+     cx="705.28802"
+     cy="290.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle62" />
+  <circle
+     cx="705.28802"
+     cy="320.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle63" />
+  <circle
+     cx="705.28802"
+     cy="350.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle64" />
+  <rect
+     x="685.37457"
+     y="396.33823"
+     width="39.826885"
+     height="130.43144"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="2.17312"
+     rx="4.9783607"
+     id="rect64" />
+  <circle
+     cx="705.28802"
+     cy="416.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle65" />
+  <circle
+     cx="705.28802"
+     cy="446.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle66" />
+  <circle
+     cx="705.28802"
+     cy="476.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle67" />
+  <circle
+     cx="705.28802"
+     cy="506.25165"
+     r="10"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="1.5"
+     id="circle68" />
+  <!-- Target vectors -->
+  <rect
+     x="765.36584"
+     y="240.32944"
+     width="39.844406"
+     height="128.28006"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="2.15559"
+     rx="4.9805508"
+     id="rect68" />
+  <text
+     x="785.28802"
+     y="220.25165"
+     text-anchor="middle"
+     class="small-label"
+     id="text68"
+     style="font-size:10.6667px"><tspan
+       sodipodi:role="line"
+       id="tspan95"
+       x="785.28802"
+       y="220.25165"
+       style="font-size:10.6667px">Actual</tspan><tspan
+       sodipodi:role="line"
+       id="tspan96"
+       x="785.28802"
+       y="233.58502"
+       style="font-size:10.6667px">Context Words</tspan></text>
+  <text
+     x="701.34723"
+     y="289.81049"
+     text-anchor="middle"
+     class="vector-value"
+     id="text69"
+     transform="scale(1.1196856,0.89310785)"
+     style="stroke-width:0.893108">1</text>
+  <text
+     x="701.34723"
+     y="316.6037"
+     text-anchor="middle"
+     class="vector-value"
+     id="text70"
+     transform="scale(1.1196856,0.89310785)"
+     style="stroke-width:0.893108">0</text>
+  <text
+     x="701.34723"
+     y="343.39694"
+     text-anchor="middle"
+     class="vector-value"
+     id="text71"
+     transform="scale(1.1196856,0.89310785)"
+     style="stroke-width:0.893108">0</text>
+  <text
+     x="701.34723"
+     y="370.19019"
+     text-anchor="middle"
+     class="vector-value"
+     id="text72"
+     transform="scale(1.1196856,0.89310785)"
+     style="stroke-width:0.893108">0</text>
+  <text
+     x="701.34723"
+     y="396.98343"
+     text-anchor="middle"
+     class="vector-value"
+     id="text73"
+     transform="scale(1.1196856,0.89310785)"
+     style="stroke-width:0.893108">0</text>
+  <rect
+     x="765.36139"
+     y="396.32504"
+     width="39.853226"
+     height="127.20443"
+     fill="#ffffff"
+     stroke="#0066cc"
+     stroke-width="2.14678"
+     rx="4.9816532"
+     id="rect73" />
+  <text
+     x="694.15662"
+     y="469.12701"
+     text-anchor="middle"
+     class="vector-value"
+     id="text74"
+     transform="scale(1.1312842,0.88395118)"
+     style="stroke-width:0.883951">0</text>
+  <text
+     x="694.15662"
+     y="495.64554"
+     text-anchor="middle"
+     class="vector-value"
+     id="text75"
+     transform="scale(1.1312842,0.88395118)"
+     style="stroke-width:0.883951">0</text>
+  <text
+     x="694.15662"
+     y="522.16406"
+     text-anchor="middle"
+     class="vector-value"
+     id="text76"
+     transform="scale(1.1312842,0.88395118)"
+     style="stroke-width:0.883951">1</text>
+  <text
+     x="694.15662"
+     y="548.68262"
+     text-anchor="middle"
+     class="vector-value"
+     id="text77"
+     transform="scale(1.1312842,0.88395118)"
+     style="stroke-width:0.883951">0</text>
+  <text
+     x="694.15662"
+     y="575.20117"
+     text-anchor="middle"
+     class="vector-value"
+     id="text78"
+     transform="scale(1.1312842,0.88395118)"
+     style="stroke-width:0.883951">0</text>
+  <!-- Connections -->
+  <line
+     x1="549.31238"
+     y1="364.86072"
+     x2="584.51062"
+     y2="334.71515"
+     stroke="#0066cc"
+     stroke-width="1.53556"
+     id="line78" />
+  <line
+     x1="550.1601"
+     y1="370.25165"
+     x2="585.35834"
+     y2="400.39725"
+     stroke="#0066cc"
+     stroke-width="1.53556"
+     id="line80" />
+  <line
+     x1="625.28802"
+     y1="340.25165"
+     x2="685.28802"
+     y2="300.25165"
+     stroke="#9900cc"
+     stroke-width="2"
+     id="line81" />
+  <line
+     x1="625.28802"
+     y1="370.25165"
+     x2="685.28802"
+     y2="300.25165"
+     stroke="#9900cc"
+     stroke-width="2"
+     id="line82" />
+  <line
+     x1="625.28802"
+     y1="400.25165"
+     x2="685.28802"
+     y2="300.25165"
+     stroke="#9900cc"
+     stroke-width="2"
+     id="line83" />
+  <line
+     x1="625.28802"
+     y1="340.25165"
+     x2="685.28802"
+     y2="460.25165"
+     stroke="#ffcc00"
+     stroke-width="2"
+     id="line84" />
+  <line
+     x1="625.28802"
+     y1="370.25165"
+     x2="685.28802"
+     y2="460.25165"
+     stroke="#ffcc00"
+     stroke-width="2"
+     id="line85" />
+  <line
+     x1="625.28802"
+     y1="400.25165"
+     x2="685.28802"
+     y2="460.25165"
+     stroke="#ffcc00"
+     stroke-width="2"
+     id="line86" />
+  <text
+     x="705.28802"
+     y="220.25165"
+     text-anchor="middle"
+     class="small-label"
+     id="text86"
+     style="font-size:10.6667px"><tspan
+       sodipodi:role="line"
+       id="tspan93"
+       x="705.28802"
+       y="220.25165"
+       style="font-size:10.6667px">Context Words</tspan><tspan
+       sodipodi:role="line"
+       id="tspan94"
+       x="705.28802"
+       y="233.58502"
+       style="font-size:10.6667px">Prediction</tspan></text>
+  <!-- Descriptions at bottom -->
+</svg>
