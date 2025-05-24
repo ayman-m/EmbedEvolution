@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 860 900"
+   version="1.1"
+   id="svg91"
+   sodipodi:docname="bert_architecture.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview91"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.94932017"
+     inkscape:cx="575.67512"
+     inkscape:cy="75.317055"
+     inkscape:window-width="1728"
+     inkscape:window-height="968"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg91" />
+  <!-- Styles -->
+  <defs
+     id="defs2">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#333"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="dotted-arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#555"
+         id="polygon2" />
+    </marker>
+    <style
+       id="style2">
+      text {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+      }
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .subtitle {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .section-title {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .layer-title {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .token {
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .code {
+        font-family: Consolas, monospace;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .label {
+        font-size: 14px;
+      }
+      .small-label {
+        font-size: 12px;
+      }
+      .tiny-label {
+        font-size: 10px;
+      }
+      .note {
+        font-size: 12px;
+        font-style: italic;
+        fill: #555;
+      }
+    </style>
+    <marker
+       id="arrowhead-6"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#333333"
+         id="polygon1-0" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <!-- Title -->
+  <!-- Output Layer Section -->
+  <text
+     x="426.99789"
+     y="48.327755"
+     text-anchor="middle"
+     class="section-title"
+     id="text3"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Output Layer</text>
+  <!-- Output Embeddings -->
+  <rect
+     x="154.52242"
+     y="89.478035"
+     width="77.146057"
+     height="38.626568"
+     fill="#ffd180"
+     stroke="#fb8c00"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect3" />
+  <text
+     x="193.2294"
+     y="113.54088"
+     text-anchor="middle"
+     class="token"
+     id="text4"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">C_[CLS]</text>
+  <rect
+     x="250.95497"
+     y="89.478035"
+     width="77.146057"
+     height="38.626568"
+     fill="#ffecb3"
+     stroke="#ffa000"
+     stroke-width="1.44749"
+     rx="4.8216286"
+     id="rect4" />
+  <text
+     x="289.72888"
+     y="113.54088"
+     text-anchor="middle"
+     class="token"
+     id="text5"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">C_T1</text>
+  <rect
+     x="347.38757"
+     y="89.478035"
+     width="77.146057"
+     height="38.626568"
+     fill="#ffecb3"
+     stroke="#ffa000"
+     stroke-width="1.44749"
+     rx="4.8216286"
+     id="rect5" />
+  <text
+     x="386.22836"
+     y="113.54088"
+     text-anchor="middle"
+     class="token"
+     id="text6"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">C_T2</text>
+  <rect
+     x="443.82013"
+     y="89.478035"
+     width="77.146057"
+     height="38.626568"
+     fill="#ffecb3"
+     stroke="#ffa000"
+     stroke-width="1.44749"
+     rx="4.8216286"
+     id="rect6" />
+  <text
+     x="482.72784"
+     y="113.54088"
+     text-anchor="middle"
+     class="small-label"
+     id="text7"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">...</text>
+  <rect
+     x="540.25269"
+     y="89.478035"
+     width="77.146057"
+     height="38.626568"
+     fill="#ffecb3"
+     stroke="#ffa000"
+     stroke-width="1.44749"
+     rx="4.8216286"
+     id="rect7" />
+  <text
+     x="579.22729"
+     y="113.54088"
+     text-anchor="middle"
+     class="token"
+     id="text8"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">C_TN</text>
+  <rect
+     x="636.68524"
+     y="89.478035"
+     width="77.146057"
+     height="38.626568"
+     fill="#ffecb3"
+     stroke="#ffa000"
+     stroke-width="1.44749"
+     rx="4.8216286"
+     id="rect8" />
+  <text
+     x="675.72675"
+     y="113.54088"
+     text-anchor="middle"
+     class="token"
+     id="text9"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">C_[SEP]</text>
+  <text
+     x="197.44855"
+     y="77.414169"
+     text-anchor="middle"
+     class="small-label"
+     id="text11"
+     style="font-size:10.2933px;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Classification Embedding</text>
+  <text
+     x="458.94687"
+     y="77.585907"
+     text-anchor="middle"
+     class="small-label"
+     id="text12"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Contextual Embeddings (Token Representations)</text>
+  <!-- Transformer Encoder Stack Section -->
+  <text
+     x="-302.60669"
+     y="137.38235"
+     text-anchor="middle"
+     class="section-title"
+     id="text13"
+     transform="matrix(-0.00246243,-1.0006907,0.9993037,-0.00246585,0,0)"
+     style="font-size:14.1533px;stroke-width:0.964995">Transformer Encoder Stack</text>
+  <!-- Top Transformer Block -->
+  <rect
+     x="154.52242"
+     y="205.35774"
+     width="559.3089"
+     height="57.93985"
+     fill="#e1f5fe"
+     stroke="#0288d1"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect13" />
+  <text
+     x="434.47809"
+     y="238.99019"
+     text-anchor="middle"
+     class="label"
+     id="text14"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Transformer Encoder Layer N</text>
+  <!-- Middle Transformer Block -->
+  <rect
+     x="154.52242"
+     y="272.95422"
+     width="559.3089"
+     height="57.93985"
+     fill="#e1f5fe"
+     stroke="#0288d1"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect14" />
+  <text
+     x="434.47809"
+     y="306.53983"
+     text-anchor="middle"
+     class="label"
+     id="text15"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Transformer Encoder Layer ...</text>
+  <!-- Bottom Transformer Block -->
+  <rect
+     x="154.52242"
+     y="340.55069"
+     width="559.3089"
+     height="57.93985"
+     fill="#e1f5fe"
+     stroke="#0288d1"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect15" />
+  <text
+     x="434.47809"
+     y="374.08948"
+     text-anchor="middle"
+     class="label"
+     id="text16"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Transformer Encoder Layer 1</text>
+  <!-- Detailed Transformer Block -->
+  <rect
+     x="106.33439"
+     y="416.98093"
+     width="655.68494"
+     height="204.16458"
+     fill="#e8f5e9"
+     stroke="#388e3c"
+     stroke-width="1.89848"
+     rx="4.8212128"
+     stroke-dasharray="5, 3"
+     id="rect16" />
+  <text
+     x="434.47809"
+     y="442.31607"
+     text-anchor="middle"
+     class="subtitle"
+     id="text17"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Inside a Transformer Encoder Layer 0</text>
+  <!-- Feed-Forward Network -->
+  <rect
+     x="154.52242"
+     y="458.36172"
+     width="559.3089"
+     height="38.626568"
+     fill="#c8e6c9"
+     stroke="#388e3c"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect17" />
+  <text
+     x="434.47809"
+     y="482.16888"
+     text-anchor="middle"
+     class="label"
+     id="text18"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Feed-Forward Network</text>
+  <rect
+     x="154.52242"
+     y="506.64493"
+     width="559.3089"
+     height="19.313284"
+     fill="#a5d6a7"
+     stroke="#388e3c"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect18" />
+  <text
+     x="434.47809"
+     y="520.76868"
+     text-anchor="middle"
+     class="small-label"
+     id="text19"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Add Norm (Layer Normalization + Residual Connection)</text>
+  <!-- Multi-Head Attention -->
+  <rect
+     x="154.52242"
+     y="535.61493"
+     width="559.3089"
+     height="38.626568"
+     fill="#bbdefb"
+     stroke="#1976d2"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect19" />
+  <text
+     x="434.47809"
+     y="559.36847"
+     text-anchor="middle"
+     class="label"
+     id="text20"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Multi-Head Self-Attention</text>
+  <rect
+     x="154.52242"
+     y="583.89813"
+     width="559.3089"
+     height="19.313284"
+     fill="#90caf9"
+     stroke="#1976d2"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect20" />
+  <text
+     x="434.47809"
+     y="597.96826"
+     text-anchor="middle"
+     class="small-label"
+     id="text21"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Add Norm (Layer Normalization + Residual Connection)</text>
+  <!-- Input Layer Section -->
+  <text
+     x="-762.02173"
+     y="117.56572"
+     text-anchor="middle"
+     class="section-title"
+     id="text22"
+     transform="matrix(-0.00445509,-1.0006838,0.9992968,-0.00446128,0,0)"
+     style="stroke-width:0.964995">Input Layer</text>
+  <!-- Summed Embeddings -->
+  <rect
+     x="154.52242"
+     y="670.80786"
+     width="77.146057"
+     height="38.626568"
+     fill="#d1c4e9"
+     stroke="#673ab7"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect22" />
+  <text
+     x="193.2294"
+     y="694.46771"
+     text-anchor="middle"
+     class="token"
+     id="text23"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">[CLS]</text>
+  <rect
+     x="250.95497"
+     y="670.80786"
+     width="77.146057"
+     height="38.626568"
+     fill="#d1c4e9"
+     stroke="#673ab7"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect23" />
+  <text
+     x="289.72888"
+     y="694.46771"
+     text-anchor="middle"
+     class="token"
+     id="text24"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Token 1</text>
+  <rect
+     x="347.38757"
+     y="670.80786"
+     width="77.146057"
+     height="38.626568"
+     fill="#d1c4e9"
+     stroke="#673ab7"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect24" />
+  <text
+     x="386.22836"
+     y="694.46771"
+     text-anchor="middle"
+     class="token"
+     id="text25"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Token 2</text>
+  <rect
+     x="443.82013"
+     y="670.80786"
+     width="77.146057"
+     height="38.626568"
+     fill="#d1c4e9"
+     stroke="#673ab7"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect25" />
+  <text
+     x="482.72784"
+     y="694.46771"
+     text-anchor="middle"
+     class="small-label"
+     id="text26"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">...</text>
+  <rect
+     x="540.25269"
+     y="670.80786"
+     width="77.146057"
+     height="38.626568"
+     fill="#d1c4e9"
+     stroke="#673ab7"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect26" />
+  <text
+     x="579.22729"
+     y="694.46771"
+     text-anchor="middle"
+     class="token"
+     id="text27"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Token N</text>
+  <rect
+     x="636.68524"
+     y="670.80786"
+     width="77.146057"
+     height="38.626568"
+     fill="#d1c4e9"
+     stroke="#673ab7"
+     stroke-width="1.92999"
+     rx="4.8216286"
+     id="rect27" />
+  <text
+     x="675.72675"
+     y="694.46771"
+     text-anchor="middle"
+     class="token"
+     id="text28"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">[SEP]</text>
+  <text
+     x="407.55447"
+     y="863.46729"
+     text-anchor="middle"
+     class="small-label"
+     id="text29"
+     transform="scale(0.99930669,1.0006938)"
+     style="stroke-width:0.964995">Input Representation = Token Embedding + Segment Embedding + Position Embedding</text>
+  <!-- Token Embeddings -->
+  <!-- Segment Embeddings -->
+  <!-- Position Embeddings -->
+  <!-- Arrows for flow -->
+  <!-- Input to first transformer -->
+  <!-- Between transformer blocks -->
+  <!-- Last transformer to output -->
+  <line
+     x1="192.75154"
+     y1="187.28105"
+     x2="192.75154"
+     y2="129.84555"
+     stroke="#333333"
+     stroke-width="1.66532"
+     marker-end="url(#arrowhead)"
+     id="line65" />
+  <line
+     x1="289.32169"
+     y1="187.28105"
+     x2="289.32169"
+     y2="129.84555"
+     stroke="#333333"
+     stroke-width="1.66532"
+     marker-end="url(#arrowhead)"
+     id="line66" />
+  <line
+     x1="385.89182"
+     y1="187.28105"
+     x2="385.89182"
+     y2="129.84555"
+     stroke="#333333"
+     stroke-width="1.66532"
+     marker-end="url(#arrowhead)"
+     id="line67" />
+  <line
+     x1="482.46194"
+     y1="187.28105"
+     x2="482.46194"
+     y2="129.84555"
+     stroke="#333333"
+     stroke-width="1.66532"
+     marker-end="url(#arrowhead)"
+     id="line68" />
+  <line
+     x1="579.03204"
+     y1="187.28105"
+     x2="579.03204"
+     y2="129.84555"
+     stroke="#333333"
+     stroke-width="1.66532"
+     marker-end="url(#arrowhead)"
+     id="line69" />
+  <line
+     x1="675.60217"
+     y1="187.28105"
+     x2="675.60217"
+     y2="129.84555"
+     stroke="#333333"
+     stroke-width="1.66532"
+     marker-end="url(#arrowhead)"
+     id="line70" />
+  <!-- Inside Transformer Block -->
+  <!-- Residual connections -->
+  <path
+     d="m 153.28411,594.23572 c -29.04041,0 -29.04041,-40.73318 0,-40.73318"
+     stroke="#1976d2"
+     stroke-width="1.33205"
+     fill="none"
+     stroke-dasharray="4, 2"
+     id="path73" />
+  <path
+     d="m 154.58048,517.00806 c -29.07962,0 -29.07962,-38.2182 0,-38.2182"
+     stroke="#388e3c"
+     stroke-width="1.29114"
+     fill="none"
+     stroke-dasharray="4, 2"
+     id="path74" />
+  <!-- Token embedding to Summed representation -->
+  <line
+     x1="193.09544"
+     y1="738.40436"
+     x2="193.09544"
+     y2="709.43445"
+     stroke="#673ab7"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line74" />
+  <line
+     x1="289.52802"
+     y1="738.40436"
+     x2="289.52802"
+     y2="709.43445"
+     stroke="#673ab7"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line75" />
+  <line
+     x1="385.9606"
+     y1="738.40436"
+     x2="385.9606"
+     y2="709.43445"
+     stroke="#673ab7"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line76" />
+  <line
+     x1="433.45364"
+     y1="655.37878"
+     x2="433.45364"
+     y2="632.22894"
+     stroke="#673ab7"
+     stroke-width="1.29395"
+     marker-end="url(#arrowhead-6)"
+     id="line76-2"
+     style="marker-end:url(#arrowhead-6)" />
+  <line
+     x1="482.39316"
+     y1="738.40436"
+     x2="482.39316"
+     y2="709.43445"
+     stroke="#673ab7"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line77" />
+  <line
+     x1="578.82568"
+     y1="738.40436"
+     x2="578.82568"
+     y2="709.43445"
+     stroke="#673ab7"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line78" />
+  <line
+     x1="675.2583"
+     y1="738.40436"
+     x2="675.2583"
+     y2="709.43445"
+     stroke="#673ab7"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line79" />
+  <!-- Segment embedding to Summed representation -->
+  <line
+     x1="206.59599"
+     y1="777.03094"
+     x2="206.59599"
+     y2="709.43445"
+     stroke="#3f51b5"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line80" />
+  <line
+     x1="303.02859"
+     y1="777.03094"
+     x2="303.02859"
+     y2="709.43445"
+     stroke="#3f51b5"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line81" />
+  <line
+     x1="399.46115"
+     y1="777.03094"
+     x2="399.46115"
+     y2="709.43445"
+     stroke="#3f51b5"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line82" />
+  <line
+     x1="495.89371"
+     y1="777.03094"
+     x2="495.89371"
+     y2="709.43445"
+     stroke="#3f51b5"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line83" />
+  <line
+     x1="592.32623"
+     y1="777.03094"
+     x2="592.32623"
+     y2="709.43445"
+     stroke="#3f51b5"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line84" />
+  <line
+     x1="688.75885"
+     y1="777.03094"
+     x2="688.75885"
+     y2="709.43445"
+     stroke="#3f51b5"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line85" />
+  <!-- Position embedding to Summed representation -->
+  <line
+     x1="179.59488"
+     y1="815.65753"
+     x2="179.59488"
+     y2="709.43445"
+     stroke="#00897b"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line86" />
+  <line
+     x1="276.02747"
+     y1="815.65753"
+     x2="276.02747"
+     y2="709.43445"
+     stroke="#00897b"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line87" />
+  <line
+     x1="372.46002"
+     y1="815.65753"
+     x2="372.46002"
+     y2="709.43445"
+     stroke="#00897b"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line88" />
+  <line
+     x1="468.89261"
+     y1="815.65753"
+     x2="468.89261"
+     y2="709.43445"
+     stroke="#00897b"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line89" />
+  <line
+     x1="565.32513"
+     y1="815.65753"
+     x2="565.32513"
+     y2="709.43445"
+     stroke="#00897b"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line90" />
+  <line
+     x1="661.75769"
+     y1="815.65753"
+     x2="661.75769"
+     y2="709.43445"
+     stroke="#00897b"
+     stroke-width="1.44749"
+     marker-end="url(#arrowhead)"
+     id="line91" />
+  <rect
+     x="154.53111"
+     y="737.12933"
+     width="77.146057"
+     height="28.969925"
+     fill="#ede7f6"
+     stroke="#673ab7"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect29" />
+  <text
+     x="193.2381"
+     y="755.91821"
+     text-anchor="middle"
+     class="small-label"
+     id="text30"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Token Emb</text>
+  <rect
+     x="250.96367"
+     y="737.12933"
+     width="77.146057"
+     height="28.969925"
+     fill="#ede7f6"
+     stroke="#673ab7"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect30" />
+  <text
+     x="289.73758"
+     y="755.91821"
+     text-anchor="middle"
+     class="small-label"
+     id="text31"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Token Emb</text>
+  <rect
+     x="347.39624"
+     y="737.12933"
+     width="77.146057"
+     height="28.969925"
+     fill="#ede7f6"
+     stroke="#673ab7"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect31" />
+  <text
+     x="386.23706"
+     y="755.91821"
+     text-anchor="middle"
+     class="small-label"
+     id="text32"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Token Emb</text>
+  <rect
+     x="443.82883"
+     y="737.12933"
+     width="77.146057"
+     height="28.969925"
+     fill="#ede7f6"
+     stroke="#673ab7"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect32" />
+  <text
+     x="482.73651"
+     y="755.91821"
+     text-anchor="middle"
+     class="small-label"
+     id="text33"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">...</text>
+  <rect
+     x="540.26141"
+     y="737.12933"
+     width="77.146057"
+     height="28.969925"
+     fill="#ede7f6"
+     stroke="#673ab7"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect33" />
+  <text
+     x="579.23602"
+     y="755.91821"
+     text-anchor="middle"
+     class="small-label"
+     id="text34"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Token Emb</text>
+  <rect
+     x="636.69397"
+     y="737.12933"
+     width="77.146057"
+     height="28.969925"
+     fill="#ede7f6"
+     stroke="#673ab7"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect34" />
+  <text
+     x="675.73547"
+     y="755.91821"
+     text-anchor="middle"
+     class="small-label"
+     id="text35"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Token Emb</text>
+  <rect
+     x="154.53111"
+     y="775.75592"
+     width="77.146057"
+     height="28.969925"
+     fill="#e8eaf6"
+     stroke="#3f51b5"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect35" />
+  <text
+     x="193.2381"
+     y="794.51801"
+     text-anchor="middle"
+     class="small-label"
+     id="text36"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Segment A</text>
+  <rect
+     x="250.96367"
+     y="775.75592"
+     width="77.146057"
+     height="28.969925"
+     fill="#e8eaf6"
+     stroke="#3f51b5"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect36" />
+  <text
+     x="289.73758"
+     y="794.51801"
+     text-anchor="middle"
+     class="small-label"
+     id="text37"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Segment A</text>
+  <rect
+     x="347.39624"
+     y="775.75592"
+     width="77.146057"
+     height="28.969925"
+     fill="#e8eaf6"
+     stroke="#3f51b5"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect37" />
+  <text
+     x="386.23706"
+     y="794.51801"
+     text-anchor="middle"
+     class="small-label"
+     id="text38"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Segment A</text>
+  <rect
+     x="443.82883"
+     y="775.75592"
+     width="77.146057"
+     height="28.969925"
+     fill="#e8eaf6"
+     stroke="#3f51b5"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect38" />
+  <text
+     x="482.73651"
+     y="794.51801"
+     text-anchor="middle"
+     class="small-label"
+     id="text39"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">...</text>
+  <rect
+     x="540.26141"
+     y="775.75592"
+     width="77.146057"
+     height="28.969925"
+     fill="#e8eaf6"
+     stroke="#3f51b5"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect39" />
+  <text
+     x="579.23602"
+     y="794.51801"
+     text-anchor="middle"
+     class="small-label"
+     id="text40"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Segment B</text>
+  <rect
+     x="636.69397"
+     y="775.75592"
+     width="77.146057"
+     height="28.969925"
+     fill="#e8eaf6"
+     stroke="#3f51b5"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect40" />
+  <text
+     x="675.73547"
+     y="794.51801"
+     text-anchor="middle"
+     class="small-label"
+     id="text41"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Segment B</text>
+  <rect
+     x="154.53111"
+     y="814.38245"
+     width="77.146057"
+     height="28.969925"
+     fill="#e0f2f1"
+     stroke="#00897b"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect41" />
+  <text
+     x="193.2381"
+     y="833.1178"
+     text-anchor="middle"
+     class="small-label"
+     id="text42"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Position 0</text>
+  <rect
+     x="250.96367"
+     y="814.38245"
+     width="77.146057"
+     height="28.969925"
+     fill="#e0f2f1"
+     stroke="#00897b"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect42" />
+  <text
+     x="289.73758"
+     y="833.1178"
+     text-anchor="middle"
+     class="small-label"
+     id="text43"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Position 1</text>
+  <rect
+     x="347.39624"
+     y="814.38245"
+     width="77.146057"
+     height="28.969925"
+     fill="#e0f2f1"
+     stroke="#00897b"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect43" />
+  <text
+     x="386.23706"
+     y="833.1178"
+     text-anchor="middle"
+     class="small-label"
+     id="text44"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Position 2</text>
+  <rect
+     x="443.82883"
+     y="814.38245"
+     width="77.146057"
+     height="28.969925"
+     fill="#e0f2f1"
+     stroke="#00897b"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect44" />
+  <text
+     x="482.73651"
+     y="833.1178"
+     text-anchor="middle"
+     class="small-label"
+     id="text45"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">...</text>
+  <rect
+     x="540.26141"
+     y="814.38245"
+     width="77.146057"
+     height="28.969925"
+     fill="#e0f2f1"
+     stroke="#00897b"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect45" />
+  <text
+     x="579.23602"
+     y="833.1178"
+     text-anchor="middle"
+     class="small-label"
+     id="text46"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Position N</text>
+  <rect
+     x="636.69397"
+     y="814.38245"
+     width="77.146057"
+     height="28.969925"
+     fill="#e0f2f1"
+     stroke="#00897b"
+     stroke-width="0.964995"
+     rx="2.892977"
+     id="rect46" />
+  <text
+     x="675.73547"
+     y="833.1178"
+     text-anchor="middle"
+     class="small-label"
+     id="text47"
+     style="font-size:11.5799px;font-family:Arial, sans-serif;stroke-width:0.964995"
+     transform="scale(0.99930669,1.0006938)">Position N+1</text>
+  <rect
+     x="91.472183"
+     y="188.74564"
+     width="682.18738"
+     height="441.55823"
+     fill="#e8f5e9"
+     stroke="#388e3c"
+     stroke-width="2.95115"
+     rx="5.0160847"
+     stroke-dasharray="5, 3"
+     id="rect16-9"
+     style="fill:none;stroke:#3567c4;stroke-width:1.44749;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <rect
+     x="91.726021"
+     y="655.82062"
+     width="680.33533"
+     height="215.88481"
+     fill="#e8f5e9"
+     stroke="#388e3c"
+     stroke-width="2.95115"
+     rx="5.0024667"
+     stroke-dasharray="5, 3"
+     id="rect16-9-9"
+     style="fill:none;stroke:#9828d1;stroke-width:1.01075;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <rect
+     x="91.796387"
+     y="27.228279"
+     width="682.8288"
+     height="136.64587"
+     fill="#e8f5e9"
+     stroke="#388e3c"
+     stroke-width="2.95115"
+     rx="5.0208011"
+     stroke-dasharray="5, 3"
+     id="rect16-9-9-3"
+     style="fill:none;stroke:#9828d1;stroke-width:0.805611;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+</svg>

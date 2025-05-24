@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 1000"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="transformer-encoder-layer.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview31"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.56557066"
+     inkscape:cx="541.93051"
+     inkscape:cy="513.6405"
+     inkscape:window-width="1728"
+     inkscape:window-height="968"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg31"
+     showgrid="false" />
+  <!-- Styles -->
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path8" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect6"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <style
+       id="style1">
+      text {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+      }
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        text-anchor: middle;
+      }
+      .subtitle {
+        font-size: 16px;
+        font-weight: bold;
+        text-anchor: middle;
+      }
+      .box {
+        fill: white;
+        stroke: #333;
+        stroke-width: 2;
+        rx: 5;
+        ry: 5;
+      }
+      .highlight-box {
+        fill: #e6f3ff;
+        stroke: #0066cc;
+        stroke-width: 2;
+        rx: 5;
+        ry: 5;
+      }
+      .attention-box {
+        fill: #fff2e6;
+        stroke: #ff8c1a;
+        stroke-width: 2;
+        rx: 5;
+        ry: 5;
+      }
+      .ffn-box {
+        fill: #f2e6ff;
+        stroke: #8c1aff;
+        stroke-width: 2;
+        rx: 5;
+        ry: 5;
+      }
+      .norm-box {
+        fill: #e6ffe6;
+        stroke: #1a8c1a;
+        stroke-width: 2;
+        rx: 5;
+        ry: 5;
+      }
+      .arrow {
+        fill: none;
+        stroke: #666;
+        stroke-width: 2;
+      }
+      .arrow-head {
+        fill: #666;
+      }
+      .attention-arrow {
+        fill: none;
+        stroke: #ff8c1a;
+        stroke-width: 2;
+        stroke-dasharray: 5, 3;
+      }
+      .plus {
+        font-size: 24px;
+        font-weight: bold;
+        text-anchor: middle;
+      }
+    </style>
+    <marker
+       style="overflow:visible"
+       id="Triangle-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         d="M 2.885,0 -1.44,2.5 v -5 z"
+         id="path135-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-9-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-1" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect6-0"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+  </defs>
+  <!-- Main Title -->
+  <!-- Input Embedding -->
+  <rect
+     x="327.44894"
+     y="40.050278"
+     width="177.34442"
+     height="52.356056"
+     class="box"
+     id="rect2" />
+  <text
+     x="413.99359"
+     y="70.097733"
+     text-anchor="middle"
+     id="text3"
+     transform="scale(1.0080589,0.99200552)"
+     style="font-size:12px;stroke-width:0.879633">Input Embedding for Token X</text>
+  <!-- Self-Attention Block Background -->
+  <rect
+     x="149.2178"
+     y="137.78159"
+     width="532.03326"
+     height="296.68433"
+     class="attention-box"
+     opacity="0.3"
+     id="rect4" />
+  <path
+     style="fill:#e8ffe6;fill-opacity:1;stroke:#000300;stroke-width:1.50047;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-9-0)"
+     d="m 239.82383,227.19229 c 7.42688,0.17544 14.85376,0.35088 22.28064,0.52632"
+     id="path6-0"
+     inkscape:path-effect="#path-effect6-0"
+     inkscape:original-d="m 239.82383,227.19229 c 7.42688,0.17544 14.85376,0.35088 22.28064,0.52632"
+     transform="matrix(0.76405257,0.02599696,0.02475499,-0.80238563,379.11839,404.76515)" />
+  <path
+     style="fill:none;fill-opacity:0.00543476;stroke:#070209;stroke-width:1.23731;stroke-opacity:1;marker-start:url(#Triangle-9)"
+     d="m 531.76369,203.11122 c 0,-0.10241 3.65677,-37.41174 -116.51595,-34.22234"
+     id="path3-5"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="256.11905"
+     y="162.50354"
+     class="subtitle"
+     id="text5"
+     transform="scale(1.0080589,0.99200552)"
+     style="stroke-width:0.879633">Multi-Head Self-Attention</text>
+  <!-- Q, K, V Generation -->
+  <line
+     x1="415.23444"
+     y1="93.537361"
+     x2="415.23444"
+     y2="203.66032"
+     class="arrow"
+     id="line5"
+     style="stroke:#010101;stroke-opacity:1" />
+  <polygon
+     points="405,220 400,230 395,220 "
+     class="arrow-head"
+     id="polygon5"
+     transform="matrix(0.88672209,0,0,0.87260093,60.545605,6.71342)"
+     style="stroke:#000000;stroke-opacity:1;fill:#030303;fill-opacity:1" />
+  <!-- Split into Q, K, V -->
+  <!-- Q, K, V boxes -->
+  <rect
+     x="263.06052"
+     y="207.43074"
+     width="65.99929"
+     height="43.899269"
+     class="highlight-box"
+     id="rect8" />
+  <rect
+     x="584.39111"
+     y="206.90373"
+     width="78.664459"
+     height="43.743835"
+     class="highlight-box"
+     id="rect8-4-7"
+     style="fill:#e8ffe6;fill-opacity:1;stroke:#0d8900;stroke-width:1.88622;stroke-opacity:1" />
+  <text
+     x="617.30237"
+     y="226.48291"
+     text-anchor="middle"
+     id="text3-6-6-7"
+     transform="scale(1.0080589,0.99200552)"
+     style="font-size:12px;font-family:Arial, sans-serif;stroke-width:0.879633"><tspan
+       sodipodi:role="line"
+       id="tspan2-5-9"
+       x="617.30237"
+       y="226.48291">Other Tokens</tspan><tspan
+       sodipodi:role="line"
+       x="617.30237"
+       y="241.48291"
+       id="tspan3-5">Values</tspan></text>
+  <text
+     x="293.69327"
+     y="234.9469"
+     text-anchor="middle"
+     id="text8"
+     transform="scale(1.0080589,0.99200552)"
+     style="font-size:10.6667px;stroke-width:0.879633">Key (K_X)</text>
+  <rect
+     x="370.89835"
+     y="207.58966"
+     width="88.672211"
+     height="43.630047"
+     class="highlight-box"
+     id="rect9" />
+  <text
+     x="411.91486"
+     y="235.65161"
+     text-anchor="middle"
+     id="text9"
+     transform="scale(1.0080589,0.9920055)"
+     style="font-size:12px;stroke-width:0.879633">Query (Q_X)</text>
+  <!-- Other Token Embeddings -->
+  <!-- Arrows from Other Tokens to K and V -->
+  <!-- K_Y and V_Y boxes -->
+  <!-- Attention Score Calculation -->
+  <rect
+     x="360.90189"
+     y="288.43665"
+     width="110.38295"
+     height="52.319736"
+     class="highlight-box"
+     id="rect15" />
+  <text
+     x="413.76202"
+     y="312.73367"
+     text-anchor="middle"
+     id="text15"
+     transform="scale(1.0080589,0.99200552)"
+     style="font-size:12px;stroke-width:0.879633">Attention Scores</text>
+  <text
+     x="413.76205"
+     y="331.33755"
+     text-anchor="middle"
+     id="text16"
+     transform="scale(1.0080589,0.99200552)"
+     style="font-size:12px;stroke-width:0.879633">(Q_X • K_Y)</text>
+  <!-- Weighted Sum -->
+  <rect
+     x="362.56595"
+     y="376.31308"
+     width="106.40665"
+     height="43.630047"
+     class="highlight-box"
+     id="rect17" />
+  <text
+     x="412.99951"
+     y="395.59949"
+     text-anchor="middle"
+     id="text17"
+     transform="scale(1.0080589,0.99200552)"
+     style="font-size:12px;stroke-width:0.879633">Weighted Sum of</text>
+  <text
+     x="412.4454"
+     y="410.48322"
+     text-anchor="middle"
+     id="text18"
+     transform="scale(1.0080589,0.99200552)"
+     style="font-size:12px;stroke-width:0.879633">All Values (V_Y)</text>
+  <!-- Output of Self-Attention -->
+  <rect
+     x="309.03818"
+     y="460.71252"
+     width="206.73769"
+     height="43.492828"
+     class="highlight-box"
+     id="rect18" />
+  <text
+     x="411.91486"
+     y="490.74524"
+     text-anchor="middle"
+     id="text19"
+     transform="scale(1.0080589,0.9920055)"
+     style="stroke-width:0.879633">Attention Output for Token X</text>
+  <!-- Add & Norm (First) -->
+  <rect
+     x="149.2178"
+     y="530.45203"
+     width="532.03326"
+     height="69.808075"
+     class="norm-box"
+     opacity="0.3"
+     id="rect19" />
+  <text
+     x="310.59369"
+     y="565.01666"
+     class="subtitle"
+     id="text20"
+     transform="scale(1.0080589,0.99200552)"
+     style="stroke-width:0.879633">Add Norm (First)</text>
+  <!-- Residual Connection from Input -->
+  <line
+     x1="737.80554"
+     y1="65.352341"
+     x2="737.80554"
+     y2="561.41376"
+     class="arrow"
+     id="line21"
+     style="stroke:#090909;stroke-opacity:1" />
+  <line
+     x1="738.48804"
+     y1="561.56226"
+     x2="681.28131"
+     y2="561.56226"
+     class="arrow"
+     id="line22"
+     style="stroke:#090909;stroke-opacity:1" />
+  <line
+     x1="737.56848"
+     y1="66.278526"
+     x2="505.32095"
+     y2="66.278526"
+     class="arrow"
+     id="line22-7"
+     style="fill:none;stroke:#050505;stroke-width:2.28874;stroke-opacity:1" />
+  <polygon
+     points="510,675 500,670 510,665 "
+     class="arrow-head"
+     id="polygon22"
+     transform="matrix(0.88672209,0,0,0.87260093,237.04248,-23.048496)" />
+  <!-- Addition Symbol -->
+  <text
+     x="411.20343"
+     y="570.41754"
+     class="plus"
+     id="text22"
+     transform="scale(1.0080589,0.99200551)"
+     style="stroke-width:0.879633">+</text>
+  <!-- From Attention Output to Add -->
+  <line
+     x1="415.5517"
+     y1="504.27399"
+     x2="415.5517"
+     y2="527.85608"
+     class="arrow"
+     id="line23" />
+  <polygon
+     points="400,670 395,660 405,660 "
+     class="arrow-head"
+     id="polygon23"
+     transform="matrix(0.88672209,0,0,0.87260093,61.107651,-54.976505)" />
+  <!-- Layer Norm -->
+  <rect
+     x="326.56223"
+     y="578.80804"
+     width="177.34442"
+     height="43.630047"
+     class="norm-box"
+     id="rect23" />
+  <text
+     x="411.91486"
+     y="609.86163"
+     text-anchor="middle"
+     id="text23"
+     transform="scale(1.0080589,0.99200551)"
+     style="stroke-width:0.879633">Layer Normalization</text>
+  <line
+     x1="415.46863"
+     y1="633.69836"
+     x2="415.46863"
+     y2="649.80573"
+     class="arrow"
+     id="line24"
+     style="stroke:#000000;stroke-opacity:1" />
+  <polygon
+     points="405,760 400,770 395,760 "
+     class="arrow-head"
+     id="polygon24"
+     transform="matrix(0.88672209,0,0,0.87260093,60.545605,-19.28658)"
+     style="stroke:#000000;stroke-opacity:1" />
+  <!-- Feed Forward Network -->
+  <rect
+     x="149.2178"
+     y="652.61615"
+     width="532.03326"
+     height="69.808075"
+     class="ffn-box"
+     opacity="0.3"
+     id="rect24" />
+  <text
+     x="245.49774"
+     y="682.0072"
+     class="subtitle"
+     id="text24"
+     transform="scale(1.0080589,0.99200552)"
+     style="stroke-width:0.879633">Feed-Forward Network</text>
+  <rect
+     x="282.22614"
+     y="699.79419"
+     width="266.01663"
+     height="43.630047"
+     class="ffn-box"
+     id="rect25" />
+  <text
+     x="411.91486"
+     y="732.49158"
+     text-anchor="middle"
+     id="text25"
+     transform="scale(1.0080589,0.99200552)"
+     style="stroke-width:0.879633">Linear → Activation → Linear</text>
+  <line
+     x1="415.23444"
+     y1="743.42419"
+     x2="415.23444"
+     y2="769.60223"
+     class="arrow"
+     id="line25" />
+  <polygon
+     points="400,880 395,870 405,870 "
+     class="arrow-head"
+     id="polygon25"
+     transform="matrix(0.88672209,0,0,0.87260093,60.545605,1.71342)" />
+  <!-- Add & Norm (Second) -->
+  <rect
+     x="149.2178"
+     y="771.60223"
+     width="532.03326"
+     height="69.808075"
+     class="norm-box"
+     opacity="0.3"
+     id="rect26" />
+  <text
+     x="235.52518"
+     y="800.40009"
+     class="subtitle"
+     id="text26"
+     transform="scale(1.0080589,0.99200552)"
+     style="stroke-width:0.879633">Add Norm (Second)</text>
+  <!-- Residual Connection from First Add & Norm -->
+  <line
+     x1="415.23444"
+     y1="634.43811"
+     x2="104.88171"
+     y2="634.43811"
+     class="arrow"
+     id="line26"
+     style="stroke:#010701;stroke-opacity:1" />
+  <line
+     x1="104.88171"
+     y1="633.62378"
+     x2="104.88171"
+     y2="805.63281"
+     class="arrow"
+     id="line27"
+     style="stroke:#010101;stroke-opacity:1" />
+  <line
+     x1="103.96291"
+     y1="805.93671"
+     x2="148.3797"
+     y2="805.93671"
+     class="arrow"
+     id="line28"
+     style="stroke:#010101;stroke-opacity:1" />
+  <polygon
+     points="310,915 310,925 300,920 "
+     class="arrow-head"
+     id="polygon28"
+     transform="matrix(0.88672209,0,0,0.87260093,60.545605,3.71342)" />
+  <!-- Addition Symbol -->
+  <!-- Layer Norm -->
+  <rect
+     x="326.56223"
+     y="819.95831"
+     width="177.34442"
+     height="43.630047"
+     class="norm-box"
+     id="rect28" />
+  <text
+     x="411.91486"
+     y="852.95526"
+     text-anchor="middle"
+     id="text29"
+     transform="scale(1.0080589,0.99200552)"
+     style="stroke-width:0.879633">Layer Normalization</text>
+  <line
+     x1="415.23444"
+     y1="863.58832"
+     x2="415.23444"
+     y2="889.76636"
+     class="arrow"
+     id="line29" />
+  <polygon
+     points="405,1010 400,1020 395,1010 "
+     class="arrow-head"
+     id="polygon29"
+     transform="matrix(0.88672209,0,0,0.87260093,60.545605,-0.28658)" />
+  <!-- Output Embedding -->
+  <rect
+     x="282.22614"
+     y="889.76636"
+     width="266.01663"
+     height="52.356056"
+     class="box"
+     id="rect29" />
+  <text
+     x="411.91486"
+     y="928.02026"
+     text-anchor="middle"
+     id="text30"
+     transform="scale(1.0080589,0.99200552)"
+     style="stroke-width:0.879633">Output Embedding for Token X</text>
+  <line
+     x1="414.69479"
+     y1="252.41237"
+     x2="414.69479"
+     y2="283.16635"
+     class="arrow"
+     id="line14-5"
+     style="fill:none;stroke:#050505;stroke-width:1.67914;stroke-opacity:1" />
+  <polygon
+     points="205,350 200,360 195,350 "
+     class="arrow-head"
+     id="polygon14-5"
+     transform="matrix(0.88672209,0,0,0.87260093,237.01191,-26.463321)"
+     style="fill:#040404;stroke:#050505;stroke-opacity:1;fill-opacity:1" />
+  <line
+     x1="416.07401"
+     y1="340.09113"
+     x2="416.07401"
+     y2="370.84509"
+     class="arrow"
+     id="line14-5-2"
+     style="fill:none;stroke:#050505;stroke-width:1.67914;stroke-opacity:1" />
+  <polygon
+     points="205,350 200,360 195,350 "
+     class="arrow-head"
+     id="polygon14-5-5"
+     transform="matrix(0.88672209,0,0,0.87260093,238.39114,61.215447)"
+     style="fill:#040404;fill-opacity:1;stroke:#050505;stroke-opacity:1" />
+  <path
+     style="fill:none;fill-opacity:0.00543476;stroke:#070209;stroke-width:1.26361;stroke-opacity:1;marker-start:url(#Triangle)"
+     d="m 292.35781,203.02441 c 0,-0.10213 -3.82405,-37.31257 121.84582,-34.13162"
+     id="path3"
+     sodipodi:nodetypes="cc" />
+  <rect
+     x="496.73462"
+     y="207.64662"
+     width="65.99929"
+     height="43.899269"
+     class="highlight-box"
+     id="rect8-3"
+     style="fill:#e6f3ff;stroke:#0066cc;stroke-width:1.73078" />
+  <text
+     x="526.7027"
+     y="233.93481"
+     text-anchor="middle"
+     id="text10"
+     transform="scale(1.0080589,0.99200552)"
+     style="font-size:10.6667px;font-family:Arial, sans-serif;stroke-width:0.879633">Value (V_X)</text>
+  <rect
+     x="161.42343"
+     y="205.84589"
+     width="78.664459"
+     height="43.743835"
+     class="highlight-box"
+     id="rect8-4-7-7"
+     style="fill:#e8ffe6;fill-opacity:1;stroke:#0d8900;stroke-width:1.88622;stroke-opacity:1" />
+  <text
+     x="199.47832"
+     y="225.54396"
+     text-anchor="middle"
+     id="text3-6-6"
+     transform="scale(1.0080589,0.99200552)"
+     style="font-size:12px;font-family:Arial, sans-serif;stroke-width:0.879633"><tspan
+       sodipodi:role="line"
+       id="tspan2-5"
+       x="199.47832"
+       y="225.54396">Other Tokens</tspan><tspan
+       sodipodi:role="line"
+       x="199.47832"
+       y="240.54396"
+       id="tspan3">Keys</tspan></text>
+  <path
+     style="fill:#e8ffe6;fill-opacity:1;stroke:#000300;stroke-width:1.50047;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-9)"
+     d="m 239.82383,227.19229 c 7.42688,0.17544 14.85376,0.35088 22.28064,0.52632"
+     id="path6"
+     inkscape:path-effect="#path-effect6"
+     inkscape:original-d="m 239.82383,227.19229 c 7.42688,0.17544 14.85376,0.35088 22.28064,0.52632"
+     transform="matrix(-0.76405257,0.02599696,-0.02475499,-0.80238563,446.88944,404.74852)" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000300;stroke-width:1.3263;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker8)"
+     d="m 353.24564,313.68215 h -57.339 l 0.80759,-60.96162 0.80759,0.78156"
+     id="path7" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000300;stroke-width:1.42916;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle)"
+     d="m 475.49768,397.38402 h 55.58598 v -144.6483"
+     id="path9" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000300;stroke-width:1.40457;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle)"
+     d="M 415.61533,455.29749 V 420.64396"
+     id="path10" />
+</svg>
